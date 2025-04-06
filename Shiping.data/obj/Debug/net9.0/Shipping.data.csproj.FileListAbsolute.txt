@@ -1,0 +1,12 @@
+E:\ITI\Shiping.data\bin\Debug\net9.0\Shipping.data.deps.json
+E:\ITI\Shiping.data\bin\Debug\net9.0\Shipping.data.dll
+E:\ITI\Shiping.data\bin\Debug\net9.0\Shipping.data.pdb
+E:\ITI\Shiping.data\obj\Debug\net9.0\Shipping.data.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\Shiping.data\obj\Debug\net9.0\Shipping.data.AssemblyInfoInputs.cache
+E:\ITI\Shiping.data\obj\Debug\net9.0\Shipping.data.AssemblyInfo.cs
+E:\ITI\Shiping.data\obj\Debug\net9.0\Shipping.data.csproj.CoreCompileInputs.cache
+E:\ITI\Shiping.data\obj\Debug\net9.0\Shipping.data.dll
+E:\ITI\Shiping.data\obj\Debug\net9.0\refint\Shipping.data.dll
+E:\ITI\Shiping.data\obj\Debug\net9.0\Shipping.data.pdb
+E:\ITI\Shiping.data\obj\Debug\net9.0\ref\Shipping.data.dll
+E:\ITI\Shiping.data\obj\Debug\net9.0\Shipping.data.csproj.AssemblyReference.cache

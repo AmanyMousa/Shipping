@@ -1,0 +1,14 @@
+[
+  {
+    "UserId": 1,
+    "SaleType": "Retail",
+    "SalePresent": 10.0,
+    "EmpId": 2
+  },
+  {
+    "UserId": 2,
+    "SaleType": "Wholesale",
+    "SalePresent": 20.0,
+    "EmpId": 1
+  }
+]

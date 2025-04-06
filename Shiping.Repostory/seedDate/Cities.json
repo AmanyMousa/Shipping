@@ -1,0 +1,16 @@
+[
+  {
+    
+    "Price": 100.0,
+    "Name": "City 1",
+    "IsDeleted": false,
+    "GovId": 1
+  },
+  {
+   
+    "Price": 200.0,
+    "Name": "City 2",
+    "IsDeleted": false,
+    "GovId": 2
+  }
+]

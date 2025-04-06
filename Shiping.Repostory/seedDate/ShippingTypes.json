@@ -1,0 +1,18 @@
+[
+  {
+    
+    "IsDeleted": false,
+    "Type": "Standard",
+    "Cost": 50.0,
+    "Description": "Standard shipping",
+    "UserId": 1
+  },
+  {
+    
+    "IsDeleted": false,
+    "Type": "Express",
+    "Cost": 100.0,
+    "Description": "Express shipping",
+    "UserId": 2
+  }
+]

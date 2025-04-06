@@ -1,0 +1,26 @@
+[
+  {
+    
+    "Name": "User 1",
+    "Password": "password1",
+    "Email": "user1@example.com",
+    "Data": "2023-01-01T00:00:00",
+    "Status": "Active",
+    "IsDeleted": false,
+    "RoleId": 1,
+    "Type": "Admin",
+    "BranchId": 1
+  },
+  {
+   
+    "Name": "User 2",
+    "Password": "password2",
+    "Email": "user2@example.com",
+    "Data": "2023-01-01T00:00:00",
+    "Status": "Inactive",
+    "IsDeleted": false,
+    "RoleId": 2,
+    "Type": "User",
+    "BranchId": 2
+  }
+]
