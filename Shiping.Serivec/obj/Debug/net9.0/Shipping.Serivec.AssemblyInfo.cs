@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shipping.Serivec")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87f0ca5dd8c6d88b7c6f25e8256aeed3b2a30e03")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shipping.Serivec")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shipping.Serivec")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

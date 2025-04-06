@@ -1,10 +1,13 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Shipping.Data.Entities;
 
 namespace Shipping.Data
 {
-    public class ShippingDbContext : DbContext
+    public class ShippingDbContext : IdentityDbContext<User>
     {
+
         public ShippingDbContext(DbContextOptions<ShippingDbContext> options)
             : base(options)
         {
@@ -15,7 +18,6 @@ namespace Shipping.Data
         public DbSet<City> Cities { get; set; }
         public DbSet<WeightPrice> WeightPrices { get; set; }
         public DbSet<Product> Products { get; set; }
-        public DbSet<Role> Roles { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<ShippingType> ShippingTypes { get; set; }
@@ -24,7 +26,7 @@ namespace Shipping.Data
         public DbSet<Marchant> Marchants { get; set; }
         public DbSet<UserBranch> UserBranches { get; set; }
         public DbSet<Permission> Permissions { get; set; }
-        public DbSet<PermissionRole> PermissionRoles { get; set; }
+        public DbSet<UserPermission> PermissionRoles { get; set; }
         public DbSet<RejectionOrder> RejectionOrders { get; set; }
 
       
@@ -36,10 +38,11 @@ namespace Shipping.Data
                 .HasKey(po => new { po.ProductId, po.OrderId });
 
             modelBuilder.Entity<UserBranch>()
-                .HasKey(ub => new { ub.UserId, ub.BranchId });
+                .HasKey(ub => new { ub.UserId, ub.BranchId }); 
+            modelBuilder.Entity<UserPermission>()
+                .HasKey(ub => new { ub.userId, ub.PermissionId });
 
-            modelBuilder.Entity<PermissionRole>()
-                .HasKey(pr => new { pr.PermissionId, pr.RoleId });
+
             // Configure relationships
             modelBuilder.Entity<Order>()
         .HasOne(o => o.Branch)

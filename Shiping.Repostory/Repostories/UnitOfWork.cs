@@ -12,21 +12,22 @@ namespace Shipping.Repostory.Repostories
     public class UnitOfWork : IUnitofwork
     {
         private readonly ShippingDbContext _context;
-        private readonly Dictionary<Type, object> _repositories = new();
+        private readonly Dictionary<Type, object> _repositories;
 
         public UnitOfWork(ShippingDbContext context)
         {
             _context = context;
+            _repositories = new();
         }
 
-         IGenericRepo<T> IUnitofwork.GetRepository<T>()
+         IGenericRepo<T,t1> IUnitofwork.GetRepository<T,t1>()
         {
             if (_repositories.ContainsKey(typeof(T)))
             {
-                return (IGenericRepo<T>)_repositories[typeof(T)];
+                return (IGenericRepo<T,t1>)_repositories[typeof(T)];
             }
 
-            var repository = new GenricRepo<T>(_context);
+            var repository = new GenricRepo<T,t1>(_context);
             _repositories.Add(typeof(T), repository);
             return repository;
         }

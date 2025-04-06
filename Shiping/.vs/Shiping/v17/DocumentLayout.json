@@ -1,7 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ITI\\Shiping\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\ITI\\Graduation_Project\\Shiping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\migrations\\20250406232622_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\context\\shippingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\enitities\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\enitities\\userbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\graduation_project\\shiping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\graduation_project\\shiping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 36,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 34,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,6 +167,84 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250406232622_v1.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\Migrations\\20250406232622_v1.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Migrations\\20250406232622_v1.cs",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\Migrations\\20250406232622_v1.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Migrations\\20250406232622_v1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T23:26:23.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserPermission.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserPermission.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\UserPermission.cs",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserPermission.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\UserPermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T23:24:59.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserBranch.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserBranch.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\UserBranch.cs",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserBranch.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\UserBranch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T23:24:56.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShippingDbContext.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\context\\ShippingDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\context\\ShippingDbContext.cs",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\context\\ShippingDbContext.cs",
+              "RelativeToolTip": "..\\Shiping.data\\context\\ShippingDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T23:19:58.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-06T23:18:31.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwCUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T23:03:15.879Z",
+              "EditorCaption": ""
             }
           ]
         }

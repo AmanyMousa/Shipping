@@ -1,33 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ITI\\Shiping\\",
+  "WorkspaceRootPath": "E:\\ITI\\Graduation_Project\\Shiping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\shiping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\migrations\\20250406232622_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\context\\shippingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\enitities\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\enitities\\userbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\graduation_project\\shiping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\shiping.data\\enitities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\shiping\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\shiping\\shipping.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:shipping.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Serivec.csproj|e:\\iti\\shiping.serivec\\users\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Serivec.csproj|e:\\iti\\shiping.serivec\\users\\iusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Serivec.csproj|e:\\iti\\shiping.serivec\\login\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Serivec.csproj|e:\\iti\\shiping.serivec\\login\\iloginserivec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\graduation_project\\shiping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -178,104 +171,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\ITI\\Shiping\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\ITI\\Shiping\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAgwGQAAAAwAAAAAAAAAA==",
+              "Title": "20250406232622_v1.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\Migrations\\20250406232622_v1.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Migrations\\20250406232622_v1.cs",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\Migrations\\20250406232622_v1.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Migrations\\20250406232622_v1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T11:03:33.296Z",
+              "WhenOpened": "2025-04-06T23:26:23.105Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\ITI\\Shiping\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "E:\\ITI\\Shiping\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-06T11:01:27.262Z",
+              "Title": "UserPermission.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserPermission.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\UserPermission.cs",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserPermission.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\UserPermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T23:24:59.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Shipping",
-              "DocumentMoniker": "E:\\ITI\\Shiping\\Shipping.csproj",
-              "RelativeDocumentMoniker": "Shipping.csproj",
-              "ToolTip": "E:\\ITI\\Shiping\\Shipping.csproj",
-              "RelativeToolTip": "Shipping.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-06T11:01:26.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUsers.cs",
-              "DocumentMoniker": "E:\\ITI\\Shiping.Serivec\\Users\\IUsers.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Users\\IUsers.cs",
-              "ToolTip": "E:\\ITI\\Shiping.Serivec\\Users\\IUsers.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\Users\\IUsers.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Title": "UserBranch.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserBranch.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\UserBranch.cs",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserBranch.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\UserBranch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T10:55:06.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Users.cs",
-              "DocumentMoniker": "E:\\ITI\\Shiping.Serivec\\Users\\Users.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Users\\Users.cs",
-              "ToolTip": "E:\\ITI\\Shiping.Serivec\\Users\\Users.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\Users\\Users.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T10:54:12.339Z",
+              "WhenOpened": "2025-04-06T23:24:56.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "User.cs",
-              "DocumentMoniker": "E:\\ITI\\Shiping.data\\Enitities\\User.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\User.cs",
-              "ToolTip": "E:\\ITI\\Shiping.data\\Enitities\\User.cs*",
-              "RelativeToolTip": "..\\Shiping.data\\Enitities\\User.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBAAAAAVAAAAAAAAAA==",
+              "Title": "ShippingDbContext.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\context\\ShippingDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\context\\ShippingDbContext.cs",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\context\\ShippingDbContext.cs",
+              "RelativeToolTip": "..\\Shiping.data\\context\\ShippingDbContext.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T10:46:47.238Z",
+              "WhenOpened": "2025-04-06T23:19:58.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "E:\\ITI\\Shiping.Serivec\\Login\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Login\\LoginDTO.cs",
-              "ToolTip": "E:\\ITI\\Shiping.Serivec\\Login\\LoginDTO.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\Login\\LoginDTO.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T10:19:42.72Z",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-06T23:18:31.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ILoginSerivec.cs",
-              "DocumentMoniker": "E:\\ITI\\Shiping.Serivec\\Login\\ILoginSerivec.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Login\\ILoginSerivec.cs",
-              "ToolTip": "E:\\ITI\\Shiping.Serivec\\Login\\ILoginSerivec.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\Login\\ILoginSerivec.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAkwAsAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAwwCUAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T09:53:40.229Z",
+              "WhenOpened": "2025-04-06T23:03:15.879Z",
               "EditorCaption": ""
             }
           ]

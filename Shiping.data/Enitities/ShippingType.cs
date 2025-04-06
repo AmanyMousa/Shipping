@@ -7,13 +7,15 @@ namespace Shipping.Data.Entities
         [Key]
         public int Id { get; set; }
         public bool IsDeleted { get; set; }
+        //enum
         public string Type { get; set; }
         public decimal Cost { get; set; }
-        public string Description { get; set; }
-        public int UserId { get; set; }
+
+        public int numberofday  { get; set; }
+       
 
         // Navigation property
-        public virtual User? User { get; set; }
+        public virtual ICollection< Order>?  Order { get; set; }
     }
 }
 

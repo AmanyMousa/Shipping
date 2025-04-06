@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Shipping.Data.Entities;
 using Shipping.Repostory.Interfaces;
-using Shipping.Serivec.Users.DTO;
+using Shipping.Serivec.DTOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,99 +13,81 @@ namespace Shipping.Serivec.Users
     public class Users : IUsers
     {
         private readonly IUnitofwork _unitOfWork;
-
+        private readonly IMapper _mapper;
         public Users(IUnitofwork unitOfWork)
         {
             _unitOfWork = unitOfWork;
         }
 
         // MAKE Admin add user
-        public async Task<bool> AddUser(UserpassDTO userpassdto)
+        public async Task<bool> AddUser(AddUserDTO userDTO)
         {
             var user = new User
             {
-                Id = userpassdto.Id,
-                Name = userpassdto.Name,
-                Email = userpassdto.Email,
-                Password = userpassdto.Password,
-                Data = userpassdto.Data,
-                Status = userpassdto.Status,
-                Type = userpassdto.Type,
-                RoleId = userpassdto.RoleId
+                Name = userDTO.Name,
+                Email = userDTO.Email,
+                Date = DateTime.Now,
+                Status = "Active"
             };
-            await _unitOfWork.GetRepository<User>().AddAsync(user);
+            var repo = _unitOfWork.GetRepository<User, string>();
+            await repo.AddAsync(user);
             return await _unitOfWork.CompleteAsync() > 0;
         }
-
-        public async Task<bool> UpdateUser(UsersDTO userDTO)
+    public async Task<bool> UpdateUser(UsersDTO userDTO)
         {
-            var user = await _unitOfWork.GetRepository<User>().GetByIdAsync(userDTO.Id);
+            var repo = _unitOfWork.GetRepository<User, string>();
+            var user = await repo.GetByIdAsync(userDTO.Id);
             if (user == null)
             {
                 return false;
             }
-
             user.Name = userDTO.Name;
             user.Email = userDTO.Email;
-            user.Data = userDTO.Data;
-            user.Status = userDTO.Status;
-            user.Type = userDTO.Type;
-            user.RoleId = userDTO.RoleId;
-
-            await _unitOfWork.GetRepository<User>().UpdateAsync(user);
+            user.Date = DateTime.Now;
+            user.Status = "Active";
+            repo.UpdateAsync(user);
             return await _unitOfWork.CompleteAsync() > 0;
         }
-
-        public async Task<List<UsersDTO>> GetAllUsers()
-        {
-            var users = await _unitOfWork.GetRepository<User>().GetAllAsync();
-            if (users == null)
-            {
-                return null;
-            }
-            var userDTOs = users.Select(user => new UsersDTO
-            {
-                Id = user.Id,
-                Name = user.Name,
-                Email = user.Email,
-                Data = user.Data,
-                Status = user.Status,
-                Type = user.Type,
-                //RoleId = user.RoleId
-            }).ToList();
-            return userDTOs;
-        }
-
         public async Task<bool> DeleteUser(string id)
         {
-            var user = await _unitOfWork.GetRepository<User>().GetByIdAsync(id);
+            var repo = _unitOfWork.GetRepository<User, string>();
+            var user = await repo.GetByIdAsync(id);
             if (user == null)
             {
                 return false;
             }
-
-            await _unitOfWork.GetRepository<User>().DeleteAsync(id);
+            repo.DeleteAsync(user.Id);
             return await _unitOfWork.CompleteAsync() > 0;
         }
-
         public async Task<UsersDTO> GetUserById(string id)
         {
-            var user = await _unitOfWork.GetRepository<User>().GetByIdAsync(id);
+            var repo = _unitOfWork.GetRepository<User, string>();
+            var user = await repo.GetByIdAsync(id);
             if (user == null)
             {
                 return null;
             }
-
             return new UsersDTO
             {
                 Id = user.Id,
                 Name = user.Name,
                 Email = user.Email,
-                Data = user.Data,
-                Status = user.Status,
-                Type = user.Type,
-                //RoleId = user.RoleId
+                Date = user.Date,
+                Status = "Active"
             };
+        }
+        public async Task<List<UsersDTO>> GetAllUsers()
+        {
+            var repo = _unitOfWork.GetRepository<User, string>();
+            var users = await repo.GetAllAsync();
+            return users.Select(user => new UsersDTO
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email,
+                Date = user.Date,
+                Status = "Active"
+            }).ToList();
         }
     }
 

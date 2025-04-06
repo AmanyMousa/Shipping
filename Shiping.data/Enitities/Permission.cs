@@ -10,6 +10,6 @@ namespace Shipping.Data.Entities
         public bool Add { get; set; }
         public bool Delete { get; set; }
         public bool Edit { get; set; }
-        public virtual ICollection<PermissionRole>? PermissionRoles { get; set; }
+        public virtual ICollection<UserPermission>? PermissionRoles { get; set; }
     }
 }

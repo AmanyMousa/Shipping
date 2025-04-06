@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Shipping.Repostory.Repostories
 {
-    public class GenricRepo<T> : IGenericRepo<T> where T : class
+    public class GenricRepo<T,t1> : IGenericRepo<T,t1> where T : class
     {
         private readonly ShippingDbContext _context;
         private readonly DbSet<T> _dbSet;
@@ -26,7 +26,7 @@ namespace Shipping.Repostory.Repostories
           
         }
 
-        public async Task DeleteAsync(string id)
+        public async Task DeleteAsync(t1 id)
         {
             var entity = await _dbSet.FindAsync(id);
             if (entity != null)
@@ -41,7 +41,7 @@ namespace Shipping.Repostory.Repostories
             return await _dbSet.ToListAsync();
         }
 
-        public async Task<T> GetByIdAsync(string id)
+        public async Task<T> GetByIdAsync(t1 id)
         {
             return await _dbSet.FindAsync(id);
         }

@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shiping.Serivec\Shipping.Serivec.csproj" />
+    <ProjectReference Include="..\Shiping.Serivec\Shipping.Service.csproj" />
   </ItemGroup>
 
 </Project>

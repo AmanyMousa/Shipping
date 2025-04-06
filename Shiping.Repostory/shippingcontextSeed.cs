@@ -43,13 +43,7 @@ namespace Shipping.Repository
                         await context.Users.AddRangeAsync(users);
                 }
 
-                if (context.Roles != null && !context.Roles.Any())
-                {
-                    var rolesData = File.ReadAllText("../Shiping.Repostory/seedDate/Roles.json");
-                    var roles = JsonSerializer.Deserialize<List<Role>>(rolesData);
-                    if (roles is not null)
-                        await context.Roles.AddRangeAsync(roles);
-                }
+               
 
                 if (context.Orders != null && !context.Orders.Any())
                 {

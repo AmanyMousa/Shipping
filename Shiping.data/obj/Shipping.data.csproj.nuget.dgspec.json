@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ITI\\Shiping.data\\Shipping.data.csproj": {}
+    "E:\\ITI\\Graduation_Project\\Shiping.data\\Shipping.data.csproj": {}
   },
   "projects": {
-    "E:\\ITI\\Shiping.data\\Shipping.data.csproj": {
+    "E:\\ITI\\Graduation_Project\\Shiping.data\\Shipping.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ITI\\Shiping.data\\Shipping.data.csproj",
+        "projectUniqueName": "E:\\ITI\\Graduation_Project\\Shiping.data\\Shipping.data.csproj",
         "projectName": "Shipping.data",
-        "projectPath": "E:\\ITI\\Shiping.data\\Shipping.data.csproj",
+        "projectPath": "E:\\ITI\\Graduation_Project\\Shiping.data\\Shipping.data.csproj",
         "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-        "outputPath": "E:\\ITI\\Shiping.data\\obj\\",
+        "outputPath": "E:\\ITI\\Graduation_Project\\Shiping.data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.3, )"

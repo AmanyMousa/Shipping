@@ -1,12 +1,16 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Shipping.Data;
+using Shipping.Data.Entities;
 using Shipping.Helper;
 using Shipping.Repostory.Interfaces;
 using Shipping.Repostory.Repostories;
+using Shipping.Serivec.EmailService;
 using Shipping.Serivec.Login;
+using Shipping.Serivec.Settings;
 using Shipping.Services.Login;
 using System.Text;
 
@@ -20,16 +24,18 @@ namespace Shipping
 
             // Add services to the container
             builder.Services.AddControllers();
-
+            builder.Services.AddIdentity<User, IdentityRole>().AddEntityFrameworkStores<ShippingDbContext>()
+                .AddDefaultTokenProviders();
+         
             // Configure DbContext
             builder.Services.AddDbContext<ShippingDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Register application services
-            builder.Services.AddScoped<ILoginSerivec, LoginService>();
+            builder.Services.AddScoped<IAccountService, AccountService>();
             builder.Services.AddScoped<IUnitofwork, UnitOfWork>();
-            builder.Services.AddScoped(typeof(IGenericRepo<>), typeof(GenricRepo<>));
-
+            builder.Services.AddScoped(typeof(IGenericRepo<,>), typeof(GenricRepo<,>));
+            builder.Services.AddScoped<IEmailService, EmailService>();
             // Configure Swagger
             builder.Services.AddSwaggerGen(c =>
             {
@@ -63,37 +69,30 @@ namespace Shipping
             });
 
             // Configure JWT Authentication
-            var jwtKey = builder.Configuration["JwtSettings:Key"];
-            if (string.IsNullOrEmpty(jwtKey) || jwtKey.Length < 32) // Minimum 256-bit key (32 chars)
-            {
-                throw new ArgumentException("JWT Key is missing or too short in configuration. Minimum 32 characters required.");
-            }
-
-            var key = Encoding.UTF8.GetBytes(jwtKey);
-
+           
             builder.Services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            })
-            .AddJwtBearer(options =>
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
             {
-                options.RequireHttpsMetadata = false; // Set to true in production
+                options.RequireHttpsMetadata = false;
                 options.SaveToken = true;
-                options.TokenValidationParameters = new TokenValidationParameters
+                options.TokenValidationParameters = new()
                 {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(key),
                     ValidateIssuer = true,
-                    ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
                     ValidateAudience = true,
-                    ValidAudience = builder.Configuration["JwtSettings:Audience"],
                     ValidateLifetime = true,
-                    ClockSkew = TimeSpan.Zero // Remove default 5-minute tolerance
+                    ValidIssuer = builder.Configuration["JWT:Issuer"],
+                    ValidAudience = builder.Configuration["JWT:Audience"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JWT:Key"])),
+                    ClockSkew = TimeSpan.Zero
                 };
             });
 
-            builder.Services.AddAuthorization();
+            builder.Services.Configure<Jwt>(builder.Configuration.GetSection(nameof(Jwt)));
+
 
             var app = builder.Build();
 

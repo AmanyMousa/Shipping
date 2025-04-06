@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Shipping.Serivec.DTOS;
 using Shipping.Serivec.Login;
+using Shipping.Service.DTOS;
 using Shipping.Services.Login;
 
 namespace Shipping.Controllers
@@ -8,9 +10,9 @@ namespace Shipping.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
-        private readonly ILoginSerivec _loginService;
+        private readonly IAccountService _loginService;
 
-        public AccountController(ILoginSerivec loginService)
+        public AccountController(IAccountService loginService)
         {
             _loginService = loginService;
         }
@@ -20,8 +22,53 @@ namespace Shipping.Controllers
         {
             try
             {
-                var token = await _loginService.LoginAsync(model);
-                return Ok(new { Token = token });
+                var Result = await _loginService.LoginAsync(model);
+                return Ok(Result);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Unauthorized(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { Message = ex.Message });
+            }
+        }
+        [HttpPost("forgetpassword")]
+        public async Task<IActionResult> ForgetPassword([FromBody] string email)
+        {
+            try
+            {
+                var result = await _loginService.ForgetPassowrdAsync(email);
+                if (result == "success")
+                {
+                    return Ok(new { Message = "Email sent successfully" });
+                }
+              
+                    return BadRequest(new { Message = result });
+               
+               
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Unauthorized(new { Message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { Message = ex.Message });
+            }
+        }
+        [HttpPost("resetpassword")]
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDTO model)
+        {
+            try
+            {
+                var result = await _loginService.ResetPasswordAsync(model);
+                if (result == "success")
+                {
+                    return Ok(new { Message = "Password reset successfully" });
+                }
+                return BadRequest(new { Message = result });
             }
             catch (UnauthorizedAccessException ex)
             {

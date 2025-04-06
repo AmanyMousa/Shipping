@@ -5,10 +5,12 @@ namespace Shipping.Data.Entities
 {
     public class Delivery
     {
-        [Key,ForeignKey("user")]
-        public string UserId { get; set; } // Primary key and foreign key from User
+
+        [ForeignKey("user"), Key]
+        public string UserId { get; set; } // foreign key from User
+        //enum (fixed ,presentage )
         public string SaleType { get; set; }
-        public decimal SalePresent { get; set; }
+        public decimal SalePresentage { get; set; }
         [ForeignKey ("User")]
         public string EmpId { get; set; } // Foreign key from User
 

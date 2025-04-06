@@ -8,7 +8,7 @@ namespace Shipping.Repostory.Interfaces
 {
     public interface IUnitofwork
     {
-        IGenericRepo<T> GetRepository<T>() where T : class;
+        IGenericRepo<T,t1> GetRepository<T,t1>() where T : class;
         Task<int> CompleteAsync();
     }
 }

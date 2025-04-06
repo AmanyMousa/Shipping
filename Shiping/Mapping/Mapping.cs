@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
 using Shipping.Data.Entities;
-using Shipping.Serivec.Users.DTO;
+using Shipping.Serivec.DTOS;
 
 public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        CreateMap<UserpassDTO, User>();
+        CreateMap<AddUserDTO, User>();
         CreateMap<User, UsersDTO>();
       
        

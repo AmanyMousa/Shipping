@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping", "Shipping.csproj", "{831182B6-0826-4AC2-958B-762B8D9A5742}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.data", "..\Shiping
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.Repostory", "..\Shiping.Repostory\Shipping.Repostory.csproj", "{89113F8B-A911-4559-A8D6-355822263D10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.Serivec", "..\Shiping.Serivec\Shipping.Serivec.csproj", "{2E11516A-1D69-41C4-ACF2-A4C831D28796}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.Service", "..\Shiping.Serivec\Shipping.Service.csproj", "{2E11516A-1D69-41C4-ACF2-A4C831D28796}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
