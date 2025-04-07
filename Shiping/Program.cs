@@ -92,7 +92,7 @@ namespace Shipping
             });
 
             builder.Services.Configure<Jwt>(builder.Configuration.GetSection(nameof(Jwt)));
-            builder.Services.AddAutoMapper(typeof(Program));
+
 
             var app = builder.Build();
 
