@@ -23,3 +23,16 @@ E:\ITI\Graduation_Project\Shiping.data\obj\Debug\net9.0\Shipping.data.dll
 E:\ITI\Graduation_Project\Shiping.data\obj\Debug\net9.0\refint\Shipping.data.dll
 E:\ITI\Graduation_Project\Shiping.data\obj\Debug\net9.0\Shipping.data.pdb
 E:\ITI\Graduation_Project\Shiping.data\obj\Debug\net9.0\ref\Shipping.data.dll
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\bin\Debug\net9.0\Shipping.data.deps.json
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\bin\Debug\net9.0\Shipping.data.dll
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\bin\Debug\net9.0\Shipping.data.pdb
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\Shipping.data.csproj.AssemblyReference.cache
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\Shipping.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\Shipping.data.AssemblyInfoInputs.cache
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\Shipping.data.AssemblyInfo.cs
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\Shipping.data.csproj.CoreCompileInputs.cache
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\Shipping.data.sourcelink.json
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\Shipping.data.dll
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\refint\Shipping.data.dll
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\Shipping.data.pdb
+C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\ref\Shipping.data.dll
