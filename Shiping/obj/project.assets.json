@@ -5456,23 +5456,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Amany\\.nuget\\packages\\": {},
+    "C:\\Users\\Dawod\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITI\\Graduation_Project\\Shiping\\Shipping.csproj",
+      "projectUniqueName": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping\\Shipping.csproj",
       "projectName": "Shipping",
-      "projectPath": "E:\\ITI\\Graduation_Project\\Shiping\\Shipping.csproj",
-      "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI\\Graduation_Project\\Shiping\\obj\\",
+      "projectPath": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping\\Shipping.csproj",
+      "packagesPath": "C:\\Users\\Dawod\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Amany\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dawod\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5487,8 +5487,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\ITI\\Graduation_Project\\Shiping.Serivec\\Shipping.Service.csproj": {
-              "projectPath": "E:\\ITI\\Graduation_Project\\Shiping.Serivec\\Shipping.Service.csproj"
+            "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.Serivec\\Shipping.Service.csproj": {
+              "projectPath": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.Serivec\\Shipping.Service.csproj"
             }
           }
         }
@@ -5503,7 +5503,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -5555,7 +5555,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
