@@ -11,6 +11,11 @@ using Shipping.Repostory.Repostories;
 using Shipping.Serivec.EmailService;
 using Shipping.Serivec.Login;
 using Shipping.Serivec.Settings;
+using Shipping.Service.Service.BranchService;
+using Shipping.Service.Service.DeliveryService;
+using Shipping.Service.Service.MarchantService;
+using Shipping.Service.Service.OrderService;
+using Shipping.Service.Service.RejectionOrderService;
 using Shipping.Services.Login;
 using System.Text;
 
@@ -94,12 +99,18 @@ namespace Shipping
             builder.Services.Configure<Jwt>(builder.Configuration.GetSection(nameof(Jwt)));
             builder.Services.AddAutoMapper(typeof(Program));
 
+            builder.Services.AddScoped<IBranchService,BranchService>();
+            builder.Services.AddScoped<IMarchantService, MarchantService>(); 
+            builder.Services.AddScoped<IDeliveryService, DeliveryService>();
+            builder.Services.AddScoped<IRejectionOrderService, RejectionOrderService>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+
             var app = builder.Build();
 
-            // Apply database seeding
+            
             await ApplySeeding.ApplyAsync(app);
 
-            // Configure the HTTP request pipeline
+             
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -108,7 +119,7 @@ namespace Shipping
 
             app.UseHttpsRedirection();
 
-            // IMPORTANT: Authentication must come before Authorization
+             
             app.UseAuthentication();
             app.UseAuthorization();
 

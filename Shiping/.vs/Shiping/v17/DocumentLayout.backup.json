@@ -3,22 +3,109 @@
   "WorkspaceRootPath": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\service\\orderservice\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\service\\orderservice\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\order\\ordercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\order\\orderfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\order\\orderreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\order\\orderupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\service\\marchantservice\\imarchantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.data\\enitities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\controllers\\rejectionordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\rejectionordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\service\\rejectionorderservice\\rejectionorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\service\\rejectionorderservice\\irejectionorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\controllers\\marchantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\marchantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\controllers\\deliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\deliverycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89113F8B-A911-4559-A8D6-355822263D10}|..\\Shiping.Repostory\\Shipping.Repostory.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.repostory\\repostories\\genricrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\service\\deliveryservice\\deliveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\service\\deliveryservice\\ideliveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\service\\marchantservice\\marchantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\service\\branchservice\\branchservice.cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\service\\branchservice\\ibranchservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\branch\\branchcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.data\\enitities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\profiles\\branchprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:profiles\\branchprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.data\\context\\shippingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.data\\enitities\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\profiles\\deliveryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:profiles\\deliveryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\branch\\branchreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89113F8B-A911-4559-A8D6-355822263D10}|..\\Shiping.Repostory\\Shipping.Repostory.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.repostory\\repostories\\genricrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\rejectionorder\\createrejectionorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.data\\migrations\\20250407113455_v2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -28,30 +115,8 @@
       "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\rejectionorder\\getrejectionorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\rejectionorder\\createrejectionorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.data\\enitities\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\profiles\\marchantprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:profiles\\marchantprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\profiles\\branchprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:profiles\\branchprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\controllers\\marchantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\marchantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\controllers\\rejectionordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\rejectionordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\profiles\\rejectionorderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,10 +135,6 @@
       "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\marchant\\updatemarchantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\profiles\\deliveryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:profiles\\deliveryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\delivery\\deliverycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -81,9 +142,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\delivery\\deliveryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.data\\context\\shippingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -95,13 +153,7 @@
       "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\branch\\branchreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\branch\\branchupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\branch\\branchcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -111,8 +163,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 36,
-          "SelectedChildIndex": 40,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderFilterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Order\\OrderFilterDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Order\\OrderFilterDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Order\\OrderFilterDto.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Order\\OrderFilterDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:42:28.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Order\\OrderReadDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Order\\OrderReadDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Order\\OrderReadDto.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Order\\OrderReadDto.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwBsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:42:28.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Order\\OrderUpdateDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Order\\OrderUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Order\\OrderUpdateDto.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Order\\OrderUpdateDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:42:27.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Order\\OrderCreateDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Order\\OrderCreateDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Order\\OrderCreateDto.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Order\\OrderCreateDto.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:42:27.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\OrderService\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Service\\OrderService\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\OrderService\\OrderService.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Service\\OrderService\\OrderService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:37:58.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\OrderService\\IOrderService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Service\\OrderService\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\OrderService\\IOrderService.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Service\\OrderService\\IOrderService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:37:58.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwGkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:20:24.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\OrderController.cs*",
+              "RelativeToolTip": "Controllers\\OrderController.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:40:00.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Enitities\\Order.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\Order.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Enitities\\Order.cs*",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\Order.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:17:41.558Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -251,169 +420,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-07T09:04:26.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenricRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
-              "RelativeToolTip": "..\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAA6wC4AAAA2AAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "RejectionOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\RejectionOrderService\\RejectionOrderService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Service\\RejectionOrderService\\RejectionOrderService.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\RejectionOrderService\\RejectionOrderService.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Service\\RejectionOrderService\\RejectionOrderService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:43:53.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MarchantProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\MarchantProfile.cs",
-              "RelativeDocumentMoniker": "Profiles\\MarchantProfile.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\MarchantProfile.cs",
-              "RelativeToolTip": "Profiles\\MarchantProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:36:45.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BranchProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\BranchProfile.cs",
-              "RelativeDocumentMoniker": "Profiles\\BranchProfile.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\BranchProfile.cs",
-              "RelativeToolTip": "Profiles\\BranchProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:18:34.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeliveryController.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\DeliveryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DeliveryController.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\DeliveryController.cs",
-              "RelativeToolTip": "Controllers\\DeliveryController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:30:19.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwF4AAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:20:24.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-07T03:59:43.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GetRejectionOrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\GetRejectionOrderDto.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\GetRejectionOrderDto.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\GetRejectionOrderDto.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\GetRejectionOrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:39:51.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateRejectionOrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\CreateRejectionOrderDto.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\CreateRejectionOrderDto.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\CreateRejectionOrderDto.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\CreateRejectionOrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:39:50.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Branch.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Enitities\\Branch.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\Branch.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Enitities\\Branch.cs",
-              "RelativeToolTip": "..\\Shiping.data\\Enitities\\Branch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T03:55:30.37Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Delivery.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Enitities\\Delivery.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\Delivery.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Enitities\\Delivery.cs",
-              "RelativeToolTip": "..\\Shiping.data\\Enitities\\Delivery.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:21:33.138Z",
+              "WhenOpened": "2025-04-08T04:08:22.455Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "MarchantController.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\MarchantController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MarchantController.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\MarchantController.cs",
-              "RelativeToolTip": "Controllers\\MarchantController.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAIwEUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:37:20.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "RejectionOrderController.cs",
               "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\RejectionOrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\RejectionOrderController.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\RejectionOrderController.cs",
-              "RelativeToolTip": "Controllers\\RejectionOrderController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAWwE0AAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\RejectionOrderController.cs*",
+              "RelativeToolTip": "Controllers\\RejectionOrderController.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T08:41:39.814Z",
               "EditorCaption": ""
@@ -421,184 +447,180 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "IRejectionOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\RejectionOrderService\\IRejectionOrderService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Service\\RejectionOrderService\\IRejectionOrderService.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\RejectionOrderService\\IRejectionOrderService.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Service\\RejectionOrderService\\IRejectionOrderService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T04:08:21.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMarchantService.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\MarchantService\\IMarchantService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Service\\MarchantService\\IMarchantService.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\MarchantService\\IMarchantService.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Service\\MarchantService\\IMarchantService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:57:58.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeliveryController.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\DeliveryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeliveryController.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\DeliveryController.cs*",
+              "RelativeToolTip": "Controllers\\DeliveryController.cs*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:30:19.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BranchController.cs",
               "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\BranchController.cs",
               "RelativeDocumentMoniker": "Controllers\\BranchController.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\BranchController.cs",
-              "RelativeToolTip": "Controllers\\BranchController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\BranchController.cs*",
+              "RelativeToolTip": "Controllers\\BranchController.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T08:16:11.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RejectionOrderProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\RejectionOrderProfile.cs",
-              "RelativeDocumentMoniker": "Profiles\\RejectionOrderProfile.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\RejectionOrderProfile.cs",
-              "RelativeToolTip": "Profiles\\RejectionOrderProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "DeliveryService.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\DeliveryService\\DeliveryService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Service\\DeliveryService\\DeliveryService.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\DeliveryService\\DeliveryService.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Service\\DeliveryService\\DeliveryService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:40:56.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UpdateRejectionOrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\UpdateRejectionOrderDto.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\UpdateRejectionOrderDto.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\UpdateRejectionOrderDto.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\UpdateRejectionOrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:39:52.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UpdateMarchantDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\UpdateMarchantDto.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Marchant\\UpdateMarchantDto.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\UpdateMarchantDto.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Marchant\\UpdateMarchantDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:35:38.371Z",
+              "WhenOpened": "2025-04-08T04:00:29.935Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "GetMarchantDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\GetMarchantDto.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Marchant\\GetMarchantDto.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\GetMarchantDto.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Marchant\\GetMarchantDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Title": "IDeliveryService.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\DeliveryService\\IDeliveryService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Service\\DeliveryService\\IDeliveryService.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\DeliveryService\\IDeliveryService.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Service\\DeliveryService\\IDeliveryService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:35:37.348Z",
+              "WhenOpened": "2025-04-08T04:00:29.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateMarchantDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\CreateMarchantDto.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Marchant\\CreateMarchantDto.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\CreateMarchantDto.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Marchant\\CreateMarchantDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "MarchantController.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\MarchantController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MarchantController.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\MarchantController.cs*",
+              "RelativeToolTip": "Controllers\\MarchantController.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:35:34.809Z",
+              "WhenOpened": "2025-04-07T08:37:20.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MarchantService.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\MarchantService\\MarchantService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Service\\MarchantService\\MarchantService.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\MarchantService\\MarchantService.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Service\\MarchantService\\MarchantService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T03:57:58.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "DeliveryProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\DeliveryProfile.cs",
-              "RelativeDocumentMoniker": "Profiles\\DeliveryProfile.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\DeliveryProfile.cs",
-              "RelativeToolTip": "Profiles\\DeliveryProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Title": "BranchService.cs.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\BranchService\\BranchService.cs.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Service\\BranchService\\BranchService.cs.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\BranchService\\BranchService.cs.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Service\\BranchService\\BranchService.cs.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:29:42.045Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DeliveryUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryUpdateDto.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryUpdateDto.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryUpdateDto.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:28:25.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DeliveryReadDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryReadDto.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryReadDto.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryReadDto.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryReadDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:28:24.876Z",
+              "WhenOpened": "2025-04-08T03:26:20.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "DeliveryCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryCreateDto.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryCreateDto.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryCreateDto.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "IBranchService.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\BranchService\\IBranchService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Service\\BranchService\\IBranchService.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\BranchService\\IBranchService.cs*",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Service\\BranchService\\IBranchService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:28:24.086Z",
+              "WhenOpened": "2025-04-08T03:26:16.472Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Enitities\\Branch.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\Branch.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Enitities\\Branch.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\Branch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:55:30.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BranchCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Branch\\BranchCreateDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Branch\\BranchCreateDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Branch\\BranchCreateDto.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Branch\\BranchCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:11:08.806Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "ShippingDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\context\\ShippingDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.data\\context\\ShippingDbContext.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\context\\ShippingDbContext.cs",
-              "RelativeToolTip": "..\\Shiping.data\\context\\ShippingDbContext.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAQwFgAAAAkAAAAAAAAAA==",
+              "Title": "BranchProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\BranchProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\BranchProfile.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\BranchProfile.cs",
+              "RelativeToolTip": "Profiles\\BranchProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:24:24.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UsersDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\UsersDTO.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\UsersDTO.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\UsersDTO.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\UsersDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:08:59.948Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T08:18:34.007Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "ResetPasswordDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\ResetPasswordDTO.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\ResetPasswordDTO.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\ResetPasswordDTO.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\ResetPasswordDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Delivery.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Enitities\\Delivery.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\Delivery.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Enitities\\Delivery.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\Delivery.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:13:24.166Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\LoginDTO.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:13:20.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T08:21:33.138Z"
             },
             {
               "$type": "Document",
@@ -610,12 +632,251 @@
               "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Branch\\BranchReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:11:10.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T08:11:10.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DeliveryProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\DeliveryProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\DeliveryProfile.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\DeliveryProfile.cs",
+              "RelativeToolTip": "Profiles\\DeliveryProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:29:42.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ShippingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\context\\ShippingDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\context\\ShippingDbContext.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\context\\ShippingDbContext.cs",
+              "RelativeToolTip": "..\\Shiping.data\\context\\ShippingDbContext.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAQwFUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:24:24.898Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
+              "Title": "GenricRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
+              "RelativeToolTip": "..\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwC4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:43:53.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateRejectionOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\CreateRejectionOrderDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\CreateRejectionOrderDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\CreateRejectionOrderDto.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\CreateRejectionOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:39:50.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250407113455_v2.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Migrations\\20250407113455_v2.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Migrations\\20250407113455_v2.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Migrations\\20250407113455_v2.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Migrations\\20250407113455_v2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:34:55.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T09:04:26.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MarchantProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\MarchantProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\MarchantProfile.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\MarchantProfile.cs",
+              "RelativeToolTip": "Profiles\\MarchantProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:36:45.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T03:59:43.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetRejectionOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\GetRejectionOrderDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\GetRejectionOrderDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\GetRejectionOrderDto.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\GetRejectionOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:39:51.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "RejectionOrderProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\RejectionOrderProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\RejectionOrderProfile.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Profiles\\RejectionOrderProfile.cs",
+              "RelativeToolTip": "Profiles\\RejectionOrderProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:40:56.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdateRejectionOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\UpdateRejectionOrderDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\UpdateRejectionOrderDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\RejectionOrder\\UpdateRejectionOrderDto.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\RejectionOrder\\UpdateRejectionOrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:39:52.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "UpdateMarchantDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\UpdateMarchantDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Marchant\\UpdateMarchantDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\UpdateMarchantDto.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Marchant\\UpdateMarchantDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:35:38.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetMarchantDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\GetMarchantDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Marchant\\GetMarchantDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\GetMarchantDto.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Marchant\\GetMarchantDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:35:37.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateMarchantDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\CreateMarchantDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Marchant\\CreateMarchantDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Marchant\\CreateMarchantDto.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Marchant\\CreateMarchantDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:35:34.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DeliveryUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryUpdateDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryUpdateDto.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:28:25.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DeliveryReadDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryReadDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryReadDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryReadDto.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:28:24.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DeliveryCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryCreateDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryCreateDto.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryCreateDto.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Delivery\\DeliveryCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:28:24.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UsersDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\UsersDTO.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\UsersDTO.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\UsersDTO.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\UsersDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:08:59.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\ResetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:13:24.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\LoginDTO.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:13:20.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
               "Title": "BranchUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Branch\\BranchUpdateDto.cs",
               "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Branch\\BranchUpdateDto.cs",
@@ -623,21 +884,7 @@
               "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Branch\\BranchUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:11:09.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "BranchCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Branch\\BranchCreateDto.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Branch\\BranchCreateDto.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Branch\\BranchCreateDto.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Branch\\BranchCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T08:11:08.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T08:11:09.506Z"
             }
           ]
         }

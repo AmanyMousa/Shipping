@@ -4,80 +4,58 @@ using Microsoft.AspNetCore.Mvc;
 using Shipping.Data.Entities;
 using Shipping.Repostory.Interfaces;
 using Shipping.Service.DTOS.Marchant;
+using Shipping.Service.Service.MarchantService;
 
 namespace Shipping.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class MarchantController : ControllerBase
     {
-        private readonly IUnitofwork _unitOfWork;
-        private readonly IMapper _mapper;
+        private readonly IMarchantService _marchantService;
 
-        public MarchantController(IUnitofwork unitOfWork, IMapper mapper)
+        public MarchantController(IMarchantService marchantService)
         {
-            _unitOfWork = unitOfWork;
-            _mapper = mapper;
+            _marchantService = marchantService;
         }
 
-         
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<GetMarchantDto>>> GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var repo = _unitOfWork.GetRepository<Marchant, string>();
-            var marchants = await repo.GetAllAsync();
-            var result = _mapper.Map<IEnumerable<GetMarchantDto>>(marchants);
+            var result = await _marchantService.GetAllAsync();
             return Ok(result);
         }
 
-         
         [HttpGet("{id}")]
-        public async Task<ActionResult<GetMarchantDto>> GetById(string id)
+        public async Task<IActionResult> GetById(string id)
         {
-            var repo = _unitOfWork.GetRepository<Marchant, string>();
-            var marchant = await repo.GetByIdAsync(id);
-            if (marchant == null) return NotFound();
-
-            var dto = _mapper.Map<GetMarchantDto>(marchant);
-            return Ok(dto);
+            var result = await _marchantService.GetByIdAsync(id);
+            if (result == null) return NotFound();
+            return Ok(result);
         }
 
-         
         [HttpPost]
-        public async Task<ActionResult> Create(CreateMarchantDto dto)
+        public async Task<IActionResult> Create(CreateMarchantDto dto)
         {
-            var repo = _unitOfWork.GetRepository<Marchant, string>();
-            var entity = _mapper.Map<Marchant>(dto);
-            await repo.AddAsync(entity);
-            await _unitOfWork.CompleteAsync();
+            await _marchantService.CreateAsync(dto);
             return Ok("Marchant created successfully.");
         }
 
-         
         [HttpPut("{id}")]
-        public async Task<ActionResult> Update(string id, UpdateMarchantDto dto)
+        public async Task<IActionResult> Update(string id, UpdateMarchantDto dto)
         {
-            var repo = _unitOfWork.GetRepository<Marchant, string>();
-            var marchant = await repo.GetByIdAsync(id);
-            if (marchant == null) return NotFound();
-
-            _mapper.Map(dto, marchant);
-            await repo.UpdateAsync(marchant);
-            await _unitOfWork.CompleteAsync();
+            var updated = await _marchantService.UpdateAsync(id, dto);
+            if (!updated) return NotFound();
             return Ok("Marchant updated successfully.");
         }
 
-         
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(string id)
+        public async Task<IActionResult> Delete(string id)
         {
-            var repo = _unitOfWork.GetRepository<Marchant, string>();
-            var marchant = await repo.GetByIdAsync(id);
-            if (marchant == null) return NotFound();
-
-            await repo.DeleteAsync(id);
-            await _unitOfWork.CompleteAsync();
+            var deleted = await _marchantService.DeleteAsync(id);
+            if (!deleted) return NotFound();
             return NoContent();
         }
     }
+
 }

@@ -4,58 +4,49 @@ using Microsoft.AspNetCore.Mvc;
 using Shipping.Data.Entities;
 using Shipping.Repostory.Interfaces;
 using Shipping.Service.DTOS.Delivery;
+using Shipping.Service.Service.DeliveryService;
 
 namespace Shipping.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class DeliveryController : ControllerBase
     {
-        private readonly IUnitofwork _unitOfWork;
-        private readonly IMapper _mapper;
+        private readonly IDeliveryService _deliveryService;
 
-        public DeliveryController(IUnitofwork unitOfWork, IMapper mapper)
+        public DeliveryController(IDeliveryService deliveryService)
         {
-            _unitOfWork = unitOfWork;
-            _mapper = mapper;
+            _deliveryService = deliveryService;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<DeliveryReadDto>>> GetAll()
         {
-            var deliveries = await _unitOfWork.GetRepository<Delivery, string>().GetAllAsync();
-            return Ok(_mapper.Map<IEnumerable<DeliveryReadDto>>(deliveries));
+            var deliveries = await _deliveryService.GetAllAsync();
+            return Ok(deliveries);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<DeliveryReadDto>> GetById(string id)
         {
-            var delivery = await _unitOfWork.GetRepository<Delivery, string>().GetByIdAsync(id);
+            var delivery = await _deliveryService.GetByIdAsync(id);
             if (delivery == null) return NotFound();
 
-            return Ok(_mapper.Map<DeliveryReadDto>(delivery));
+            return Ok(delivery);
         }
 
         [HttpPost]
         public async Task<ActionResult> Create(DeliveryCreateDto dto)
         {
-            var delivery = _mapper.Map<Delivery>(dto);
-            await _unitOfWork.GetRepository<Delivery, string>().AddAsync(delivery);
-            await _unitOfWork.CompleteAsync();
-
-            return CreatedAtAction(nameof(GetById), new { id = delivery.UserId }, _mapper.Map<DeliveryReadDto>(delivery));
+            var result = await _deliveryService.CreateAsync(dto);
+            return CreatedAtAction(nameof(GetById), new { id = result.UserId }, result);
         }
 
         [HttpPut("{id}")]
         public async Task<ActionResult> Update(string id, DeliveryUpdateDto dto)
         {
-            var repo = _unitOfWork.GetRepository<Delivery, string>();
-            var delivery = await repo.GetByIdAsync(id);
-            if (delivery == null) return NotFound();
-
-            _mapper.Map(dto, delivery);
-            await repo.UpdateAsync(delivery);
-            await _unitOfWork.CompleteAsync();
+            var updated = await _deliveryService.UpdateAsync(id, dto);
+            if (!updated) return NotFound();
 
             return NoContent();
         }
@@ -63,15 +54,11 @@ namespace Shipping.Controllers
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(string id)
         {
-            var repo = _unitOfWork.GetRepository<Delivery, string>();
-            var delivery = await repo.GetByIdAsync(id);
-            if (delivery == null) return NotFound();
-
-            await repo.DeleteAsync(id);
-            await _unitOfWork.CompleteAsync();
+            var deleted = await _deliveryService.DeleteAsync(id);
+            if (!deleted) return NotFound();
 
             return NoContent();
         }
-
     }
+
 }

@@ -4,82 +4,64 @@ using Microsoft.AspNetCore.Mvc;
 using Shipping.Data.Entities;
 using Shipping.Repostory.Interfaces;
 using Shipping.Service.DTOS.RejectionOrder;
+using Shipping.Service.Service.RejectionOrderService;
 
 namespace Shipping.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class RejectionOrderController : ControllerBase
     {
-        private readonly IUnitofwork _unitOfWork;
-        private readonly IMapper _mapper;
+        private readonly IRejectionOrderService _rejectionOrderService;
 
-        public RejectionOrderController(IUnitofwork unitOfWork, IMapper mapper)
+        public RejectionOrderController(IRejectionOrderService rejectionOrderService)
         {
-            _unitOfWork = unitOfWork;
-            _mapper = mapper;
+            _rejectionOrderService = rejectionOrderService;
         }
 
-         
         [HttpGet]
         public async Task<ActionResult<IEnumerable<GetRejectionOrderDto>>> GetAll()
         {
-            var repo = _unitOfWork.GetRepository<RejectionOrder, int>();
-            var data = await repo.GetAllAsync();
-            var result = _mapper.Map<IEnumerable<GetRejectionOrderDto>>(data);
+            var result = await _rejectionOrderService.GetAllAsync();
             return Ok(result);
         }
 
-         
         [HttpGet("{id}")]
         public async Task<ActionResult<GetRejectionOrderDto>> GetById(int id)
         {
-            var repo = _unitOfWork.GetRepository<RejectionOrder, int>();
-            var rejection = await repo.GetByIdAsync(id);
-            if (rejection == null || rejection.IsDeleted) return NotFound();
+            var result = await _rejectionOrderService.GetByIdAsync(id);
+            if (result == null) return NotFound();
 
-            var dto = _mapper.Map<GetRejectionOrderDto>(rejection);
-            return Ok(dto);
+            return Ok(result);
         }
 
-         
         [HttpPost]
         public async Task<ActionResult> Create(CreateRejectionOrderDto dto)
         {
-            var repo = _unitOfWork.GetRepository<RejectionOrder, int>();
-            var entity = _mapper.Map<RejectionOrder>(dto);
-            await repo.AddAsync(entity);
-            await _unitOfWork.CompleteAsync();
+            var success = await _rejectionOrderService.CreateAsync(dto);
+            if (!success) return BadRequest("Creation failed.");
+
             return Ok("Rejection order created successfully.");
         }
 
-         
         [HttpPut("{id}")]
         public async Task<ActionResult> Update(int id, UpdateRejectionOrderDto dto)
         {
-            var repo = _unitOfWork.GetRepository<RejectionOrder, int>();
-            var entity = await repo.GetByIdAsync(id);
-            if (entity == null || entity.IsDeleted) return NotFound();
+            var success = await _rejectionOrderService.UpdateAsync(id, dto);
+            if (!success) return NotFound();
 
-            _mapper.Map(dto, entity);
-            await repo.UpdateAsync(entity);
-            await _unitOfWork.CompleteAsync();
             return Ok("Rejection order updated successfully.");
         }
 
-         
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
-            var repo = _unitOfWork.GetRepository<RejectionOrder, int>();
-            var entity = await repo.GetByIdAsync(id);
-            if (entity == null || entity.IsDeleted) return NotFound();
+            var success = await _rejectionOrderService.SoftDeleteAsync(id);
+            if (!success) return NotFound();
 
-            entity.IsDeleted = true;  
-            await repo.UpdateAsync(entity);
-            await _unitOfWork.CompleteAsync();
             return NoContent();
         }
     }
+
 
 }
