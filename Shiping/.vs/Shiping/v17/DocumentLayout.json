@@ -13,7 +13,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 36,
-          "SelectedChildIndex": 33,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
