@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nS6sM2AWeLU=",
+  "dgSpecHash": "8U9pHRWZGEQ=",
   "success": true,
-  "projectFilePath": "E:\\ITI\\Graduation_Project\\Shiping.data\\Shipping.data.csproj",
+  "projectFilePath": "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amany\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Amany\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

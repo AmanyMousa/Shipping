@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ITI\\Graduation_Project\\Shiping.Serivec\\Shipping.Service.csproj": {}
+    "E:\\ITI\\New folder\\Shiping.Serivec\\Shipping.Service.csproj": {}
   },
   "projects": {
-    "E:\\ITI\\Graduation_Project\\Shiping.data\\Shipping.data.csproj": {
+    "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ITI\\Graduation_Project\\Shiping.data\\Shipping.data.csproj",
+        "projectUniqueName": "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj",
         "projectName": "Shipping.data",
-        "projectPath": "E:\\ITI\\Graduation_Project\\Shiping.data\\Shipping.data.csproj",
+        "projectPath": "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj",
         "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-        "outputPath": "E:\\ITI\\Graduation_Project\\Shiping.data\\obj\\",
+        "outputPath": "E:\\ITI\\New folder\\Shiping.data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -83,14 +83,14 @@
         }
       }
     },
-    "E:\\ITI\\Graduation_Project\\Shiping.Repostory\\Shipping.Repostory.csproj": {
+    "E:\\ITI\\New folder\\Shiping.Repostory\\Shipping.Repostory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ITI\\Graduation_Project\\Shiping.Repostory\\Shipping.Repostory.csproj",
+        "projectUniqueName": "E:\\ITI\\New folder\\Shiping.Repostory\\Shipping.Repostory.csproj",
         "projectName": "Shipping.Repostory",
-        "projectPath": "E:\\ITI\\Graduation_Project\\Shiping.Repostory\\Shipping.Repostory.csproj",
+        "projectPath": "E:\\ITI\\New folder\\Shiping.Repostory\\Shipping.Repostory.csproj",
         "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-        "outputPath": "E:\\ITI\\Graduation_Project\\Shiping.Repostory\\obj\\",
+        "outputPath": "E:\\ITI\\New folder\\Shiping.Repostory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -111,8 +111,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\ITI\\Graduation_Project\\Shiping.data\\Shipping.data.csproj": {
-                "projectPath": "E:\\ITI\\Graduation_Project\\Shiping.data\\Shipping.data.csproj"
+              "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj": {
+                "projectPath": "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj"
               }
             }
           }
@@ -152,14 +152,14 @@
         }
       }
     },
-    "E:\\ITI\\Graduation_Project\\Shiping.Serivec\\Shipping.Service.csproj": {
+    "E:\\ITI\\New folder\\Shiping.Serivec\\Shipping.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ITI\\Graduation_Project\\Shiping.Serivec\\Shipping.Service.csproj",
+        "projectUniqueName": "E:\\ITI\\New folder\\Shiping.Serivec\\Shipping.Service.csproj",
         "projectName": "Shipping.Service",
-        "projectPath": "E:\\ITI\\Graduation_Project\\Shiping.Serivec\\Shipping.Service.csproj",
+        "projectPath": "E:\\ITI\\New folder\\Shiping.Serivec\\Shipping.Service.csproj",
         "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-        "outputPath": "E:\\ITI\\Graduation_Project\\Shiping.Serivec\\obj\\",
+        "outputPath": "E:\\ITI\\New folder\\Shiping.Serivec\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -180,8 +180,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\ITI\\Graduation_Project\\Shiping.Repostory\\Shipping.Repostory.csproj": {
-                "projectPath": "E:\\ITI\\Graduation_Project\\Shiping.Repostory\\Shipping.Repostory.csproj"
+              "E:\\ITI\\New folder\\Shiping.Repostory\\Shipping.Repostory.csproj": {
+                "projectPath": "E:\\ITI\\New folder\\Shiping.Repostory\\Shipping.Repostory.csproj"
               }
             }
           }
