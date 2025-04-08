@@ -3,6 +3,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Shipping.Data.Entities
 {
+    public enum OrderType
+    {
+        Normal = 0,      
+        Express = 1,     
+        Cancelled = 2    
+    }
     public class Order
     {
         [Key]
@@ -17,7 +23,7 @@ namespace Shipping.Data.Entities
         public decimal TotalWeight { get; set; }
         public decimal ShippingCost { get; set; }
         //enum
-        public string OrderType { get; set; }
+        public OrderType OrderType { get; set; }
         public int BranchId { get; set; }
         public int GovId { get; set; }
         public int CityId { get; set; }
