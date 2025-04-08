@@ -2945,11 +2945,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITI\\New folder\\Shiping.Repostory\\Shipping.Repostory.csproj",
+      "projectUniqueName": "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj",
       "projectName": "Shipping.Repostory",
-      "projectPath": "E:\\ITI\\New folder\\Shiping.Repostory\\Shipping.Repostory.csproj",
+      "projectPath": "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj",
       "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI\\New folder\\Shiping.Repostory\\obj\\",
+      "outputPath": "E:\\ITI\\graduation\\Shiping.Repostory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2970,8 +2970,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj": {
-              "projectPath": "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj"
+            "E:\\ITI\\graduation\\Shiping.data\\Shipping.data.csproj": {
+              "projectPath": "E:\\ITI\\graduation\\Shiping.data\\Shipping.data.csproj"
             }
           }
         }
