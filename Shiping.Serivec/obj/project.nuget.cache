@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "90cpsyM8xIM=",
+  "dgSpecHash": "WiXobZU7mxk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.Serivec\\Shipping.Service.csproj",
+  "projectFilePath": "E:\\ITI\\graduation\\Shiping.Serivec\\Shipping.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dawod\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Dawod\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

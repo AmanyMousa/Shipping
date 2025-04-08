@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1y1O8ccS3fo=",
+  "dgSpecHash": "93F0T7PJoy0=",
   "success": true,
-  "projectFilePath": "E:\\ITI\\Graduation\\Shiping\\Shipping.csproj",
+  "projectFilePath": "E:\\ITI\\graduation\\Shiping\\Shipping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amany\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Amany\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
