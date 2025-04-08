@@ -32,7 +32,6 @@ namespace Shipping.Services.Login
 
         public async Task<UsersDTO> LoginAsync(LoginDTO model)
         {
-            //var user1 =await _userManager.FindByIdAsync(model.Password);
             var user = await _userManager.FindByEmailAsync(model.Email);
             if (user == null || !await _userManager.CheckPasswordAsync(user, model.Password))
             {
