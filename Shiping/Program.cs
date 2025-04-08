@@ -11,11 +11,15 @@ using Shipping.Repostory.Repostories;
 using Shipping.Serivec.EmailService;
 using Shipping.Serivec.Login;
 using Shipping.Serivec.Settings;
+<<<<<<< HEAD
 using Shipping.Service.Service.BranchService;
 using Shipping.Service.Service.DeliveryService;
 using Shipping.Service.Service.MarchantService;
 using Shipping.Service.Service.OrderService;
 using Shipping.Service.Service.RejectionOrderService;
+=======
+using Shipping.Serivec.Users;
+>>>>>>> main
 using Shipping.Services.Login;
 using System.Text;
 
@@ -41,6 +45,7 @@ namespace Shipping
             builder.Services.AddScoped<IUnitofwork, UnitOfWork>();
             builder.Services.AddScoped(typeof(IGenericRepo<,>), typeof(GenricRepo<,>));
             builder.Services.AddScoped<IEmailService, EmailService>();
+            builder.Services.AddScoped<IUsers, Users>();
             // Configure Swagger
             builder.Services.AddSwaggerGen(c =>
             {
@@ -97,7 +102,8 @@ namespace Shipping
             });
 
             builder.Services.Configure<Jwt>(builder.Configuration.GetSection(nameof(Jwt)));
-            builder.Services.AddAutoMapper(typeof(Program));
+            builder.Services.Configure<Email>(builder.Configuration.GetSection(nameof(Email)));
+
 
             builder.Services.AddScoped<IBranchService,BranchService>();
             builder.Services.AddScoped<IMarchantService, MarchantService>(); 

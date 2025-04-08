@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj": {}
+    "E:\\ITI\\New folder\\Shiping.Repostory\\Shipping.Repostory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.data\\Shipping.data.csproj": {
+    "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.data\\Shipping.data.csproj",
+        "projectUniqueName": "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj",
         "projectName": "Shipping.data",
-        "projectPath": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.data\\Shipping.data.csproj",
-        "packagesPath": "C:\\Users\\Dawod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.data\\obj\\",
+        "projectPath": "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj",
+        "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
+        "outputPath": "E:\\ITI\\New folder\\Shiping.data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dawod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amany\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -79,24 +79,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj": {
+    "E:\\ITI\\New folder\\Shiping.Repostory\\Shipping.Repostory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj",
+        "projectUniqueName": "E:\\ITI\\New folder\\Shiping.Repostory\\Shipping.Repostory.csproj",
         "projectName": "Shipping.Repostory",
-        "projectPath": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj",
-        "packagesPath": "C:\\Users\\Dawod\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.Repostory\\obj\\",
+        "projectPath": "E:\\ITI\\New folder\\Shiping.Repostory\\Shipping.Repostory.csproj",
+        "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
+        "outputPath": "E:\\ITI\\New folder\\Shiping.Repostory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dawod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amany\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -111,8 +111,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.data\\Shipping.data.csproj": {
-                "projectPath": "C:\\Users\\Dawod\\Source\\Repos\\Shipping\\Shiping.data\\Shipping.data.csproj"
+              "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj": {
+                "projectPath": "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj"
               }
             }
           }
@@ -127,7 +127,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -148,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

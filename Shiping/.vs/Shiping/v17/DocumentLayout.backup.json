@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\",
+  "WorkspaceRootPath": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -73,11 +74,33 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\branch\\branchcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.serivec\\emailservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.data\\enitities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping\\controllers\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.serivec\\login\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.serivec\\users\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> main
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.data\\context\\shippingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\profiles\\branchprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:profiles\\branchprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -110,11 +133,16 @@
     {
       "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+=======
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.serivec\\dtos\\adduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> main
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\rejectionorder\\getrejectionorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping\\controllers\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping\\profiles\\marchantprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:profiles\\marchantprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -154,6 +182,33 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\dawod\\source\\repos\\shipping\\shiping.serivec\\dtos\\branch\\branchupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.data\\enitities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.serivec\\users\\iusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.data\\enitities\\seedrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89113F8B-A911-4559-A8D6-355822263D10}|..\\Shiping.Repostory\\Shipping.Repostory.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.repostory\\seeddate\\governments.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.data\\enitities\\delivery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.data\\enitities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.data\\enitities\\marchant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.data\\enitities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89113F8B-A911-4559-A8D6-355822263D10}|..\\Shiping.Repostory\\Shipping.Repostory.csproj|c:\\users\\amany\\downloads\\shipping-nancy\\shipping-nancy\\shiping.repostory\\repostories\\genricrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> main
     }
   ],
   "DocumentGroupContainers": [
@@ -163,6 +218,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 36,
+<<<<<<< HEAD
           "SelectedChildIndex": 6,
           "Children": [
             {
@@ -280,6 +336,21 @@
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T04:17:41.558Z",
+=======
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Serivec\\EmailService\\EmailService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\EmailService\\EmailService.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Serivec\\EmailService\\EmailService.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\EmailService\\EmailService.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAgwGcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T00:40:46.476Z",
+>>>>>>> main
               "EditorCaption": ""
             },
             {
@@ -420,6 +491,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 12,
               "Title": "RejectionOrderService.cs",
               "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\RejectionOrderService\\RejectionOrderService.cs",
@@ -429,11 +501,23 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T04:08:22.455Z",
+=======
+              "DocumentIndex": 6,
+              "Title": "ShippingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\context\\ShippingDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\context\\ShippingDbContext.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\context\\ShippingDbContext.cs",
+              "RelativeToolTip": "..\\Shiping.data\\context\\ShippingDbContext.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:23:53.114Z",
+>>>>>>> main
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+<<<<<<< HEAD
               "Title": "RejectionOrderController.cs",
               "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\RejectionOrderController.cs",
               "RelativeDocumentMoniker": "Controllers\\RejectionOrderController.cs",
@@ -520,10 +604,34 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T04:00:29.24Z",
+=======
+              "Title": "SeedRole.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\SeedRole.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\SeedRole.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\SeedRole.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\SeedRole.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:18:33.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwGAAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:12:13.265Z",
+>>>>>>> main
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 14,
               "Title": "MarchantController.cs",
               "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping\\Controllers\\MarchantController.cs",
@@ -546,10 +654,34 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T03:57:58.846Z",
+=======
+              "DocumentIndex": 16,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\Order.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\Order.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\Order.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\Order.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:09:45.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Serivec\\Users\\Users.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Users\\Users.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Serivec\\Users\\Users.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Users\\Users.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T22:59:46.328Z",
+>>>>>>> main
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 19,
               "Title": "BranchService.cs.cs",
               "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\BranchService\\BranchService.cs.cs",
@@ -559,10 +691,48 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T03:26:20.234Z",
+=======
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\User.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\User.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\User.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\User.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T22:47:30.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping\\Controllers\\Users.cs",
+              "RelativeDocumentMoniker": "Controllers\\Users.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping\\Controllers\\Users.cs",
+              "RelativeToolTip": "Controllers\\Users.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:06:37.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping\\Controllers\\Account.cs",
+              "RelativeDocumentMoniker": "Controllers\\Account.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping\\Controllers\\Account.cs",
+              "RelativeToolTip": "Controllers\\Account.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAqwDsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:06:48.519Z",
+>>>>>>> main
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 20,
               "Title": "IBranchService.cs",
               "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\Service\\BranchService\\IBranchService.cs",
@@ -572,10 +742,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T03:26:16.472Z",
+=======
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T23:12:10.732Z",
+>>>>>>> main
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 22,
               "Title": "Branch.cs",
               "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.data\\Enitities\\Branch.cs",
@@ -621,17 +803,95 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T08:21:33.138Z"
+=======
+              "DocumentIndex": 2,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Serivec\\Login\\AccountService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Login\\AccountService.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Serivec\\Login\\AccountService.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Login\\AccountService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwEEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T00:12:55.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BranchReadDto.cs",
-              "DocumentMoniker": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Branch\\BranchReadDto.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\Branch\\BranchReadDto.cs",
-              "ToolTip": "C:\\Users\\Dawod\\source\\repos\\Shipping\\Shiping.Serivec\\DTOS\\Branch\\BranchReadDto.cs",
-              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\Branch\\BranchReadDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "AddUserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Serivec\\DTOS\\AddUserDTO.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\AddUserDTO.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Serivec\\DTOS\\AddUserDTO.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\AddUserDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T00:04:49.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUsers.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Serivec\\Users\\IUsers.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Users\\IUsers.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Serivec\\Users\\IUsers.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Users\\IUsers.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:31:01.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\Permission.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\Permission.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\Permission.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:36:46.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Governments.json",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Repostory\\seedDate\\Governments.json",
+              "RelativeDocumentMoniker": "..\\Shiping.Repostory\\seedDate\\Governments.json",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Repostory\\seedDate\\Governments.json",
+              "RelativeToolTip": "..\\Shiping.Repostory\\seedDate\\Governments.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-07T23:55:45.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delivery.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\Delivery.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\Delivery.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\Delivery.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\Delivery.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:36:48.346Z",
+              "EditorCaption": ""
+>>>>>>> main
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Marchant.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\Marchant.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\Marchant.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.data\\Enitities\\Marchant.cs",
+              "RelativeToolTip": "..\\Shiping.data\\Enitities\\Marchant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2025-04-07T08:11:10.123Z"
             },
             {
@@ -885,6 +1145,21 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T08:11:09.506Z"
+=======
+              "WhenOpened": "2025-04-07T23:12:19.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GenricRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
+              "ToolTip": "C:\\Users\\Amany\\Downloads\\Shipping-Nancy\\Shipping-Nancy\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
+              "RelativeToolTip": "..\\Shiping.Repostory\\Repostories\\GenricRepo.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T23:05:13.207Z"
+>>>>>>> main
             }
           ]
         }

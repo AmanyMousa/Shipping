@@ -98,62 +98,26 @@
         }
       }
     },
-    "/api/Branch": {
-      "get": {
-        "tags": [
-          "Branch"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BranchReadDto"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BranchReadDto"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BranchReadDto"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
+    "/api/Users/adduser": {
       "post": {
         "tags": [
-          "Branch"
+          "Users"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/BranchCreateDto"
+                "$ref": "#/components/schemas/AddUserDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/BranchCreateDto"
+                "$ref": "#/components/schemas/AddUserDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/BranchCreateDto"
+                "$ref": "#/components/schemas/AddUserDTO"
               }
             }
           }
@@ -165,75 +129,26 @@
         }
       }
     },
-    "/api/Branch/{id}": {
-      "get": {
-        "tags": [
-          "Branch"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/BranchReadDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/BranchReadDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/BranchReadDto"
-                }
-              }
-            }
-          }
-        }
-      },
+    "/api/Users/updateuser": {
       "put": {
         "tags": [
-          "Branch"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
+          "Users"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/BranchUpdateDto"
+                "$ref": "#/components/schemas/UsersDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/BranchUpdateDto"
+                "$ref": "#/components/schemas/UsersDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/BranchUpdateDto"
+                "$ref": "#/components/schemas/UsersDTO"
               }
             }
           }
@@ -243,176 +158,12 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Users/deleteuser/{id}": {
       "delete": {
         "tags": [
-          "Branch"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Delivery": {
-      "get": {
-        "tags": [
-          "Delivery"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/DeliveryReadDto"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/DeliveryReadDto"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/DeliveryReadDto"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "Delivery"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeliveryCreateDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeliveryCreateDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeliveryCreateDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Delivery/{id}": {
-      "get": {
-        "tags": [
-          "Delivery"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/DeliveryReadDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/DeliveryReadDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/DeliveryReadDto"
-                }
-              }
-            }
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "Delivery"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeliveryUpdateDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeliveryUpdateDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/DeliveryUpdateDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "Delivery"
+          "Users"
         ],
         "parameters": [
           {
@@ -431,9 +182,10 @@
         }
       }
     },
-    "/api/Marchant": {
+    "/api/Users/getuser/{id}": {
       "get": {
         "tags": [
+<<<<<<< HEAD
           "Marchant"
         ],
         "responses": {
@@ -535,6 +287,9 @@
       "delete": {
         "tags": [
           "Marchant"
+=======
+          "Users"
+>>>>>>> main
         ],
         "parameters": [
           {
@@ -553,6 +308,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "/api/Order": {
       "get": {
         "tags": [
@@ -722,165 +478,12 @@
       }
     },
     "/api/RejectionOrder": {
+=======
+    "/api/Users/getallusers": {
+>>>>>>> main
       "get": {
         "tags": [
-          "RejectionOrder"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/GetRejectionOrderDto"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/GetRejectionOrderDto"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/GetRejectionOrderDto"
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
-      "post": {
-        "tags": [
-          "RejectionOrder"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateRejectionOrderDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateRejectionOrderDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CreateRejectionOrderDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/RejectionOrder/{id}": {
-      "get": {
-        "tags": [
-          "RejectionOrder"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/GetRejectionOrderDto"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/GetRejectionOrderDto"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/GetRejectionOrderDto"
-                }
-              }
-            }
-          }
-        }
-      },
-      "put": {
-        "tags": [
-          "RejectionOrder"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateRejectionOrderDto"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateRejectionOrderDto"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/UpdateRejectionOrderDto"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      },
-      "delete": {
-        "tags": [
-          "RejectionOrder"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
+          "Users"
         ],
         "responses": {
           "200": {
@@ -892,34 +495,25 @@
   },
   "components": {
     "schemas": {
-      "BranchCreateDto": {
+      "AddUserDTO": {
         "type": "object",
         "properties": {
-          "status": {
+          "name": {
             "type": "string",
             "nullable": true
           },
-          "phone": {
+          "email": {
             "type": "string",
             "nullable": true
           },
-          "location": {
+          "data": {
             "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "BranchReadDto": {
-        "type": "object",
-        "properties": {
-          "bid": {
-            "type": "integer",
-            "format": "int32"
+            "format": "date-time"
           },
           "status": {
             "type": "string",
             "nullable": true
+<<<<<<< HEAD
           },
           "phone": {
             "type": "string",
@@ -1063,6 +657,8 @@
           "orderId": {
             "type": "integer",
             "format": "int32"
+=======
+>>>>>>> main
           }
         },
         "additionalProperties": false
@@ -1309,42 +905,28 @@
         },
         "additionalProperties": false
       },
-      "SaleTypeEnum": {
-        "enum": [
-          0,
-          1
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "UpdateMarchantDto": {
+      "UsersDTO": {
         "type": "object",
         "properties": {
-          "address": {
+          "id": {
             "type": "string",
             "nullable": true
           },
-          "cost_Rejection": {
-            "type": "number",
-            "format": "double"
-          },
-          "bickup": {
-            "type": "number",
-            "format": "double"
-          }
-        },
-        "additionalProperties": false
-      },
-      "UpdateRejectionOrderDto": {
-        "type": "object",
-        "properties": {
-          "reason": {
+          "name": {
             "type": "string",
             "nullable": true
           },
-          "orderId": {
-            "type": "integer",
-            "format": "int32"
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
