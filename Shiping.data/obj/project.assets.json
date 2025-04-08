@@ -2927,11 +2927,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj",
+      "projectUniqueName": "E:\\ITI\\Graduation\\Shiping.data\\Shipping.data.csproj",
       "projectName": "Shipping.data",
-      "projectPath": "E:\\ITI\\New folder\\Shiping.data\\Shipping.data.csproj",
+      "projectPath": "E:\\ITI\\Graduation\\Shiping.data\\Shipping.data.csproj",
       "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI\\New folder\\Shiping.data\\obj\\",
+      "outputPath": "E:\\ITI\\Graduation\\Shiping.data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
