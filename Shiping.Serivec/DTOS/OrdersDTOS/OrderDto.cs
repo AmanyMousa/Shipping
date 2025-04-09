@@ -20,7 +20,7 @@ namespace Shipping.Service.DTOS.OrdersDTOS
         public decimal ShippingCost { get; set; }
         public int shipID { set; get; }
 
-        public OrderTypeEnum OrderType { get; set; }
+        
         public int BranchId { get; set; }
         public int GovId { get; set; }
         public int CityId { get; set; }

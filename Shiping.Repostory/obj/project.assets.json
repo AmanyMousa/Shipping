@@ -2939,23 +2939,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\3D\\.nuget\\packages\\": {},
+    "C:\\Users\\Amany\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITI\\project\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj",
+      "projectUniqueName": "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj",
       "projectName": "Shipping.Repostory",
-      "projectPath": "E:\\ITI\\project\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj",
-      "packagesPath": "C:\\Users\\3D\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI\\project\\Shipping\\Shiping.Repostory\\obj\\",
+      "projectPath": "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj",
+      "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
+      "outputPath": "E:\\ITI\\graduation\\Shiping.Repostory\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\3D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amany\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2970,8 +2970,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\ITI\\project\\Shipping\\Shiping.data\\Shipping.data.csproj": {
-              "projectPath": "E:\\ITI\\project\\Shipping\\Shiping.data\\Shipping.data.csproj"
+            "E:\\ITI\\graduation\\Shiping.data\\Shipping.data.csproj": {
+              "projectPath": "E:\\ITI\\graduation\\Shiping.data\\Shipping.data.csproj"
             }
           }
         }

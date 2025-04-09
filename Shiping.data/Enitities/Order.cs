@@ -3,6 +3,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Shipping.Data.Entities
 {
+    public enum OrderType
+    {
+        Normal = 0,
+        Express = 1,
+        Cancelled = 2
+    }
     public class Order
     {
         [Key]
@@ -17,7 +23,7 @@ namespace Shipping.Data.Entities
         public decimal TotalWeight { get; set; }
         public decimal ShippingCost { get; set; }
         //enum
-        public OrderTypeEnum OrderType { get; set; }
+        public OrderType OrderType { get; set; }
         public int BranchId { get; set; }
         public int GovId { get; set; }
         public int CityId { get; set; }
@@ -26,21 +32,15 @@ namespace Shipping.Data.Entities
         [ForeignKey("ShippingType")]
         public int shipID { set; get; }
         // Navigation properties
-        public virtual Branch Branch { get; set; }
-        public virtual Government Gov { get; set; }
-        public virtual City City { get; set; }
-        public virtual User User { get; set; }
+        public Branch Branch { get; set; }
+        public Government Gov { get; set; }
+        public City City { get; set; }
+        public User User { get; set; }
 
         public virtual ShippingType? ShippingType { get; set; }
         public virtual ICollection<RejectionOrder>? RejectionOrders { get; set; }
 
         public virtual ICollection<ProdOrder>? ProdOrders { get; set; }
-        public enum OrderTypeEnum
-        {
-            Normal,
-            Exchange,
-            Return
-        }
 
     }
 }

@@ -15,19 +15,19 @@ namespace Shipping.Repostory.Repostories
         private readonly ShippingDbContext _context;
         private readonly IProductRepository products;
         private readonly Dictionary<Type, object> _repositories;
-        public IOrderRepository Orders { get; }
+
         public IShippingTypeRepository ShippingTypes { get; }
         public IGovernmentRepository Governments { get; }
         public IWeightPriceRepository WeightPrices { get; }
 
         public IProductRepository Products { get; }
 
-        public UnitOfWork(ShippingDbContext context, IOrderRepository orderRepository, IWeightPriceRepository weightPriceRepository,
+        public UnitOfWork(ShippingDbContext context,  IWeightPriceRepository weightPriceRepository,
             IProductRepository _Products, IShippingTypeRepository ShippingTypes, IGovernmentRepository governmentRepository)
         {
             _context = context;
             _repositories = new();
-            Orders = orderRepository;
+            
             this.ShippingTypes = ShippingTypes;
             WeightPrices = weightPriceRepository;
             Products = _Products ?? throw new ArgumentNullException(nameof(_Products));
