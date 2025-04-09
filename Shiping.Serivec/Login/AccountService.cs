@@ -28,16 +28,17 @@ namespace Shipping.Services.Login
             this.emailService = emailService;
         }
 
-       
+
 
         public async Task<UsersDTO> LoginAsync(LoginDTO model)
         {
+            //var user1 =await _userManager.FindByIdAsync(model.Password);
             var user = await _userManager.FindByEmailAsync(model.Email);
             if (user == null || !await _userManager.CheckPasswordAsync(user, model.Password))
             {
                 throw new UnauthorizedAccessException("Invalid email or password");
             }
-           var JwtToken = await CreateJWTToken(user);
+            var JwtToken = await CreateJWTToken(user);
             var tokenString = new JwtSecurityTokenHandler().WriteToken(JwtToken);
             var userDTO = new UsersDTO
             {
@@ -93,7 +94,7 @@ namespace Shipping.Services.Login
             foreach (var role in Roles)
                 RoleClaims.Add(new Claim(ClaimTypes.Role, role));
 
-            
+
             var claims = new List<Claim>()
      {
          new Claim(ClaimTypes.Name,user.UserName),

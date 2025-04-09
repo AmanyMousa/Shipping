@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Shipping.Serivec.EmailService
 {
-    public class EmailService:IEmailService
+    public class EmailService : IEmailService
     {
         private readonly Email _email;
 

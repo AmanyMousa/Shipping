@@ -48,25 +48,191 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Shipping.Controllers.UsersController",
-    "Method": "AddUser",
-    "RelativePath": "api/Users/adduser",
+    "ContainingType": "Shipping.Controllers.BranchController",
+    "Method": "GetBranches",
+    "RelativePath": "api/Branch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Shipping.Service.DTOS.Branch.BranchReadDto, Shipping.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Shipping.Controllers.BranchController",
+    "Method": "CreateBranch",
+    "RelativePath": "api/Branch",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userDTO",
-        "Type": "Shipping.Serivec.DTOS.AddUserDTO",
+        "Name": "dto",
+        "Type": "Shipping.Service.DTOS.Branch.BranchCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Shipping.Controllers.UsersController",
-    "Method": "DeleteUser",
-    "RelativePath": "api/Users/deleteuser/{id}",
+    "ContainingType": "Shipping.Controllers.BranchController",
+    "Method": "GetBranch",
+    "RelativePath": "api/Branch/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shipping.Service.DTOS.Branch.BranchReadDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Shipping.Controllers.BranchController",
+    "Method": "UpdateBranch",
+    "RelativePath": "api/Branch/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Shipping.Service.DTOS.Branch.BranchUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.BranchController",
+    "Method": "DeleteBranch",
+    "RelativePath": "api/Branch/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.DeliveryController",
+    "Method": "GetAll",
+    "RelativePath": "api/Delivery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Shipping.Service.DTOS.Delivery.DeliveryReadDto, Shipping.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Shipping.Controllers.DeliveryController",
+    "Method": "Create",
+    "RelativePath": "api/Delivery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Shipping.Service.DTOS.Delivery.DeliveryCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.DeliveryController",
+    "Method": "GetById",
+    "RelativePath": "api/Delivery/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shipping.Service.DTOS.Delivery.DeliveryReadDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Shipping.Controllers.DeliveryController",
+    "Method": "Update",
+    "RelativePath": "api/Delivery/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "Shipping.Service.DTOS.Delivery.DeliveryUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.DeliveryController",
+    "Method": "Delete",
+    "RelativePath": "api/Delivery/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -80,14 +246,13 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Shipping.Controllers.UsersController",
-    "Method": "GetAllUsers",
-    "RelativePath": "api/Users/getallusers",
+    "ContainingType": "Shipping.Controllers.MarchantController",
+    "Method": "GetAll",
+    "RelativePath": "api/Marchant",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-<<<<<<< HEAD
     "ReturnTypes": []
   },
   {
@@ -104,14 +269,12 @@
         "IsRequired": true
       }
     ],
-=======
->>>>>>> main
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Shipping.Controllers.UsersController",
-    "Method": "GetUserById",
-    "RelativePath": "api/Users/getuser/{id}",
+    "ContainingType": "Shipping.Controllers.MarchantController",
+    "Method": "GetById",
+    "RelativePath": "api/Marchant/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -125,15 +288,14 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "Shipping.Controllers.UsersController",
-    "Method": "UpdateUser",
-    "RelativePath": "api/Users/updateuser",
+    "ContainingType": "Shipping.Controllers.MarchantController",
+    "Method": "Update",
+    "RelativePath": "api/Marchant/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-<<<<<<< HEAD
         "Name": "id",
         "Type": "System.String",
         "IsRequired": true
@@ -355,10 +517,80 @@
       {
         "Name": "id",
         "Type": "System.Int32",
-=======
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.UsersController",
+    "Method": "AddUser",
+    "RelativePath": "api/Users/adduser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDTO",
+        "Type": "Shipping.Serivec.DTOS.AddUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.UsersController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Users/deleteuser/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.UsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Users/getallusers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.UsersController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Users/getuser/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shipping.Controllers.UsersController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Users/updateuser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
         "Name": "userDTO",
         "Type": "Shipping.Serivec.DTOS.UsersDTO",
->>>>>>> main
         "IsRequired": true
       }
     ],
