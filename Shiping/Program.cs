@@ -11,6 +11,10 @@ using Shipping.Repostory.Repostories;
 using Shipping.Serivec.EmailService;
 using Shipping.Serivec.Login;
 using Shipping.Serivec.Settings;
+using Shipping.Service.Governemt;
+using Shipping.Service.Products;
+using Shipping.Service.ShippingTypes;
+using Shipping.Service.WighPrice;
 using Shipping.Services.Login;
 using System.Text;
 
@@ -32,10 +36,23 @@ namespace Shipping
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Register application services
-            builder.Services.AddScoped<IAccountService, AccountService>();
-            builder.Services.AddScoped<IUnitofwork, UnitOfWork>();
             builder.Services.AddScoped(typeof(IGenericRepo<,>), typeof(GenricRepo<,>));
+            builder.Services.AddScoped<IShippingTypeRepository, ShippingTypeRepository>();
+            builder.Services.AddScoped<IShippingTypeServices, ShippingTypeService>();
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
+            builder.Services.AddScoped<IOrderRepository, OrderRepository>();
             builder.Services.AddScoped<IEmailService, EmailService>();
+            builder.Services.AddScoped<IAccountService, AccountService>();
+            builder.Services.AddScoped<IWeightPriceRepository, WeightPriceRepository>();
+            builder.Services.AddScoped<IWeightPriceService, WeightPriceService>();
+            builder.Services.AddScoped<IGovernmentRepository, GovernmentRepository>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<IProductServices, ProductService>();
+            builder.Services.AddScoped<IGovernmentService, GovernmentService>();
+
+            builder.Services.AddScoped<IUnitofwork, UnitOfWork>();
+            
+
             // Configure Swagger
             builder.Services.AddSwaggerGen(c =>
             {

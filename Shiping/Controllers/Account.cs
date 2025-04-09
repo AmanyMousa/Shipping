@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Shipping.Serivec.DTOS;
 using Shipping.Serivec.Login;
-using Shipping.Service.DTOS;
+using Shipping.Service.DTOS.LoginDTOS;
+using Shipping.Service.DTOS.UsersDTOS;
 using Shipping.Services.Login;
 
 namespace Shipping.Controllers

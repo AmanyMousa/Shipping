@@ -1,26 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ITI\\Graduation_Project\\Shiping\\",
+  "WorkspaceRootPath": "E:\\ITI\\project\\Shipping\\Shiping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\migrations\\20250406232622_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\project\\shipping\\shiping\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\context\\shippingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|e:\\iti\\project\\shipping\\shiping.serivec\\dtos\\ordersdtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\enitities\\userpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BE9F2A05-BDF1-4F31-BEBA-19691B1B1CFF}|..\\Shiping.data\\Shipping.data.csproj|e:\\iti\\graduation_project\\shiping.data\\enitities\\userbranch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\graduation_project\\shiping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\graduation_project\\shiping\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|e:\\iti\\project\\shipping\\shiping.serivec\\ordetservices\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,220 +20,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 36,
-          "SelectedChildIndex": 34,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:149:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:150:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "E:\\ITI\\project\\Shipping\\Shiping.Serivec\\DTOS\\OrdersDTOS\\OrderDto.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\DTOS\\OrdersDTOS\\OrderDto.cs",
+              "ToolTip": "E:\\ITI\\project\\Shipping\\Shiping.Serivec\\DTOS\\OrdersDTOS\\OrderDto.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\OrdersDTOS\\OrderDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvxoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T00:15:02.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250406232622_v1.cs",
-              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\Migrations\\20250406232622_v1.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.data\\Migrations\\20250406232622_v1.cs",
-              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\Migrations\\20250406232622_v1.cs",
-              "RelativeToolTip": "..\\Shiping.data\\Migrations\\20250406232622_v1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "E:\\ITI\\project\\Shipping\\Shiping\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "E:\\ITI\\project\\Shipping\\Shiping\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T23:26:23.105Z",
+              "WhenOpened": "2025-04-09T00:12:32.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserPermission.cs",
-              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserPermission.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\UserPermission.cs",
-              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserPermission.cs",
-              "RelativeToolTip": "..\\Shiping.data\\Enitities\\UserPermission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "E:\\ITI\\project\\Shipping\\Shiping.Serivec\\OrdetServices\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\OrdetServices\\OrderService.cs",
+              "ToolTip": "E:\\ITI\\project\\Shipping\\Shiping.Serivec\\OrdetServices\\OrderService.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\OrdetServices\\OrderService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T23:24:59.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserBranch.cs",
-              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserBranch.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.data\\Enitities\\UserBranch.cs",
-              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\Enitities\\UserBranch.cs",
-              "RelativeToolTip": "..\\Shiping.data\\Enitities\\UserBranch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T23:24:56.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShippingDbContext.cs",
-              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping.data\\context\\ShippingDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Shiping.data\\context\\ShippingDbContext.cs",
-              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping.data\\context\\ShippingDbContext.cs",
-              "RelativeToolTip": "..\\Shiping.data\\context\\ShippingDbContext.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCoAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T23:19:58.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-06T23:18:31.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\ITI\\Graduation_Project\\Shiping\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\ITI\\Graduation_Project\\Shiping\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAwwCUAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T23:03:15.879Z",
+              "WhenOpened": "2025-04-09T00:12:08.994Z",
               "EditorCaption": ""
             }
           ]
