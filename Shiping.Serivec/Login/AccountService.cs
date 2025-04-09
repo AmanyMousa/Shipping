@@ -5,14 +5,14 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Shipping.Serivec.Login;
-using Shipping.Serivec.DTOS;
 using Shipping.Serivec.Settings;
 using Microsoft.IdentityModel.Tokens;
 using System.Linq;
 using Microsoft.VisualBasic.FileIO;
 using Microsoft.Extensions.Options;
 using Shipping.Serivec.EmailService;
-using Shipping.Service.DTOS;
+using Shipping.Service.DTOS.LoginDTOS;
+using Shipping.Service.DTOS.UsersDTOS;
 
 namespace Shipping.Services.Login
 {
@@ -28,7 +28,7 @@ namespace Shipping.Services.Login
             this.emailService = emailService;
         }
 
-       
+
 
         public async Task<UsersDTO> LoginAsync(LoginDTO model)
         {
@@ -38,7 +38,7 @@ namespace Shipping.Services.Login
             {
                 throw new UnauthorizedAccessException("Invalid email or password");
             }
-           var JwtToken = await CreateJWTToken(user);
+            var JwtToken = await CreateJWTToken(user);
             var tokenString = new JwtSecurityTokenHandler().WriteToken(JwtToken);
             var userDTO = new UsersDTO
             {
@@ -94,7 +94,7 @@ namespace Shipping.Services.Login
             foreach (var role in Roles)
                 RoleClaims.Add(new Claim(ClaimTypes.Role, role));
 
-            
+
             var claims = new List<Claim>()
      {
          new Claim(ClaimTypes.Name,user.UserName),

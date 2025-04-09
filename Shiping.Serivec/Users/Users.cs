@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Shipping.Data.Entities;
 using Shipping.Repostory.Interfaces;
-using Shipping.Serivec.DTOS;
+using Shipping.Service.DTOS.UsersDTOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,14 +15,17 @@ namespace Shipping.Serivec.Users
     public class Users : IUsers
     {
         private readonly IUnitofwork _unitOfWork;
+
         private readonly UserManager<User> _userManager;
 
         public Users(IUnitofwork unitOfWork, UserManager<User> userManager)
         {
             _unitOfWork = unitOfWork;
             _userManager = userManager;
-
         }
+
+        //private readonly IMapper _mapper;
+       
 
         // MAKE Admin add user
         public async Task<bool> AddUser(AddUserDTO userDTO)
@@ -40,9 +43,9 @@ namespace Shipping.Serivec.Users
             await repo.AddAsync(user);
             //await _userManager.AddToRoleAsync(user, "Admin");
             return await _unitOfWork.CompleteAsync() > 0;
-            
+
         }
-    public async Task<bool> UpdateUser(UsersDTO userDTO)
+        public async Task<bool> UpdateUser(UsersDTO userDTO)
         {
             var repo = _unitOfWork.GetRepository<User, string>();
             var user = await repo.GetByIdAsync(userDTO.Id);
@@ -73,7 +76,7 @@ namespace Shipping.Serivec.Users
             {
                 user.IsDeleted = true;
 
-               return await _unitOfWork.CompleteAsync() > 0;
+                return await _unitOfWork.CompleteAsync() > 0;
             }
 
             repo.DeleteAsync(user.Id);

@@ -8,6 +8,13 @@ namespace Shipping.Repostory.Interfaces
 {
     public interface IUnitofwork
     {
+  
+        IGovernmentRepository Governments { get; }
+        IProductRepository Products { get; }
+
+
+        IWeightPriceRepository WeightPrices { get; }
+        IShippingTypeRepository ShippingTypes { get; }
         IGenericRepo<T,t1> GetRepository<T,t1>() where T : class;
         Task<int> CompleteAsync();
     }

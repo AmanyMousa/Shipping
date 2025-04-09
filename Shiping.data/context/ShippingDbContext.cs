@@ -67,6 +67,7 @@ namespace Shipping.Data
                 .WithMany()
                 .HasForeignKey(o => o.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
+
             modelBuilder.Entity<Delivery>()
                 .HasOne(d => d.User)
                 .WithMany(u => u.Deliveries)
@@ -77,6 +78,12 @@ namespace Shipping.Data
                 .HasOne(d => d.Employee)
                 .WithMany()
                 .HasForeignKey(d => d.EmpId);
+
+            
+            modelBuilder.Entity<Delivery>()
+                 .Property(d => d.SaleType)
+                 .HasConversion<string>();   
+             
 
             modelBuilder.Entity<Marchant>()
                 .HasOne(m => m.User)
@@ -92,8 +99,9 @@ namespace Shipping.Data
 
         }
 
+    }
+
 
 
 
     }
-}
