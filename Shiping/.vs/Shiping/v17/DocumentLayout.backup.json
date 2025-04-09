@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\ITI\\Graduation\\Shiping\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\graduation\\shiping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\graduation\\shiping\\controllers\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|e:\\iti\\graduation\\shiping.serivec\\login\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|e:\\iti\\graduation\\shiping.serivec\\login\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|e:\\iti\\graduation\\shiping\\controllers\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{831182B6-0826-4AC2-958B-762B8D9A5742}|Shipping.csproj|solutionrelative:controllers\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|e:\\iti\\graduation\\shiping.serivec\\settings\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E11516A-1D69-41C4-ACF2-A4C831D28796}|..\\Shiping.Serivec\\Shipping.Service.csproj|e:\\iti\\graduation\\shiping.serivec\\emailservice\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 36,
-          "SelectedChildIndex": -1,
->>>>>>> main
+          "SelectedChildIndex": 35,
           "Children": [
             {
               "$type": "Bookmark",
@@ -143,6 +167,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation\\Shiping.Serivec\\Login\\IAccountService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Login\\IAccountService.cs",
+              "ToolTip": "E:\\ITI\\Graduation\\Shiping.Serivec\\Login\\IAccountService.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Login\\IAccountService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:47:31.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation\\Shiping\\Controllers\\Account.cs",
+              "RelativeDocumentMoniker": "Controllers\\Account.cs",
+              "ToolTip": "E:\\ITI\\Graduation\\Shiping\\Controllers\\Account.cs",
+              "RelativeToolTip": "Controllers\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:39:20.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation\\Shiping\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\ITI\\Graduation\\Shiping\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAAwGsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:37:47.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Users.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation\\Shiping\\Controllers\\Users.cs",
+              "RelativeDocumentMoniker": "Controllers\\Users.cs",
+              "ToolTip": "E:\\ITI\\Graduation\\Shiping\\Controllers\\Users.cs",
+              "RelativeToolTip": "Controllers\\Users.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:37:01.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Email.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation\\Shiping.Serivec\\Settings\\Email.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Settings\\Email.cs",
+              "ToolTip": "E:\\ITI\\Graduation\\Shiping.Serivec\\Settings\\Email.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Settings\\Email.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:36:00.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation\\Shiping.Serivec\\Login\\AccountService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\Login\\AccountService.cs",
+              "ToolTip": "E:\\ITI\\Graduation\\Shiping.Serivec\\Login\\AccountService.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\Login\\AccountService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwGEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:35:53.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "E:\\ITI\\Graduation\\Shiping.Serivec\\EmailService\\EmailService.cs",
+              "RelativeDocumentMoniker": "..\\Shiping.Serivec\\EmailService\\EmailService.cs",
+              "ToolTip": "E:\\ITI\\Graduation\\Shiping.Serivec\\EmailService\\EmailService.cs",
+              "RelativeToolTip": "..\\Shiping.Serivec\\EmailService\\EmailService.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAwHIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:34:51.567Z",
+              "EditorCaption": ""
             }
           ]
         }

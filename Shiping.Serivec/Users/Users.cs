@@ -1,10 +1,12 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Identity;
 using Shipping.Data.Entities;
 using Shipping.Repostory.Interfaces;
 using Shipping.Serivec.DTOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,10 +15,13 @@ namespace Shipping.Serivec.Users
     public class Users : IUsers
     {
         private readonly IUnitofwork _unitOfWork;
-        private readonly IMapper _mapper;
-        public Users(IUnitofwork unitOfWork)
+        private readonly UserManager<User> _userManager;
+
+        public Users(IUnitofwork unitOfWork, UserManager<User> userManager)
         {
             _unitOfWork = unitOfWork;
+            _userManager = userManager;
+
         }
 
         // MAKE Admin add user
@@ -26,14 +31,18 @@ namespace Shipping.Serivec.Users
             {
                 Name = userDTO.Name,
                 Email = userDTO.Email,
+                NormalizedEmail = userDTO.Email.ToUpper(),
                 Date = DateTime.Now,
                 Status = "Active"
             };
+            await _userManager.CreateAsync(user, "Admin@123");
             var repo = _unitOfWork.GetRepository<User, string>();
             await repo.AddAsync(user);
+            //await _userManager.AddToRoleAsync(user, "Admin");
             return await _unitOfWork.CompleteAsync() > 0;
+
         }
-    public async Task<bool> UpdateUser(UsersDTO userDTO)
+        public async Task<bool> UpdateUser(UsersDTO userDTO)
         {
             var repo = _unitOfWork.GetRepository<User, string>();
             var user = await repo.GetByIdAsync(userDTO.Id);
@@ -50,12 +59,23 @@ namespace Shipping.Serivec.Users
         }
         public async Task<bool> DeleteUser(string id)
         {
+
             var repo = _unitOfWork.GetRepository<User, string>();
             var user = await repo.GetByIdAsync(id);
             if (user == null)
             {
                 return false;
             }
+            var deriverycount = user.Deliveries.Count();
+            var userbranchcount = user.UserBranches.Count();
+            var marchantcount = user.Marchants.Count();
+            if (deriverycount > 0 || userbranchcount > 0 || marchantcount > 0)
+            {
+                user.IsDeleted = true;
+
+                return await _unitOfWork.CompleteAsync() > 0;
+            }
+
             repo.DeleteAsync(user.Id);
             return await _unitOfWork.CompleteAsync() > 0;
         }

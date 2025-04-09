@@ -36,3 +36,16 @@ C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\Shipping.data
 C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\refint\Shipping.data.dll
 C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\Shipping.data.pdb
 C:\Users\Dawod\Source\Repos\Shipping\Shiping.data\obj\Debug\net9.0\ref\Shipping.data.dll
+E:\ITI\graduation\Shiping.data\bin\Debug\net9.0\Shipping.data.deps.json
+E:\ITI\graduation\Shiping.data\bin\Debug\net9.0\Shipping.data.dll
+E:\ITI\graduation\Shiping.data\bin\Debug\net9.0\Shipping.data.pdb
+E:\ITI\graduation\Shiping.data\obj\Debug\net9.0\Shipping.data.csproj.AssemblyReference.cache
+E:\ITI\graduation\Shiping.data\obj\Debug\net9.0\Shipping.data.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\graduation\Shiping.data\obj\Debug\net9.0\Shipping.data.AssemblyInfoInputs.cache
+E:\ITI\graduation\Shiping.data\obj\Debug\net9.0\Shipping.data.AssemblyInfo.cs
+E:\ITI\graduation\Shiping.data\obj\Debug\net9.0\Shipping.data.csproj.CoreCompileInputs.cache
+E:\ITI\graduation\Shiping.data\obj\Debug\net9.0\Shipping.data.sourcelink.json
+E:\ITI\graduation\Shiping.data\obj\Debug\net9.0\Shipping.data.dll
+E:\ITI\graduation\Shiping.data\obj\Debug\net9.0\refint\Shipping.data.dll
+E:\ITI\graduation\Shiping.data\obj\Debug\net9.0\Shipping.data.pdb
+E:\ITI\graduation\Shiping.data\obj\Debug\net9.0\ref\Shipping.data.dll
