@@ -5466,7 +5466,7 @@
       "projectName": "Shipping",
       "projectPath": "E:\\ITI\\graduation\\Shiping\\Shipping.csproj",
       "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI\\graduation\\Shiping\\obj\\",
+      "outputPath": "E:\\ITI\\Graduation\\Shiping\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

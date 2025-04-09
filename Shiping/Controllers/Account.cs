@@ -44,10 +44,10 @@ namespace Shipping.Controllers
                 {
                     return Ok(new { Message = "Email sent successfully" });
                 }
-              
-                    return BadRequest(new { Message = result });
-               
-               
+
+                return BadRequest(new { Message = result });
+
+
             }
             catch (UnauthorizedAccessException ex)
             {
