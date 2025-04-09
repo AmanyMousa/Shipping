@@ -9,6 +9,11 @@
 .vscode/
 .idea/
 
+# Ignore application settings that may contain sensitive data
+appsettings.Development.json
+appsettings.Production.json
+appsettings.json
+
 # Windows Installer files
 *.cab
 *.msi

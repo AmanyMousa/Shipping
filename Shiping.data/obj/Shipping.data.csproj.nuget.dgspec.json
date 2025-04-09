@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "E:\\ITI\\graduation\\Shiping.data\\Shipping.data.csproj": {}
   },
   "projects": {
@@ -13,25 +12,12 @@
         "projectPath": "E:\\ITI\\graduation\\Shiping.data\\Shipping.data.csproj",
         "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
         "outputPath": "E:\\ITI\\graduation\\Shiping.data\\obj\\",
-=======
-    "E:\\ITI\\project\\Shipping\\Shiping.data\\Shipping.data.csproj": {}
-  },
-  "projects": {
-    "E:\\ITI\\project\\Shipping\\Shiping.data\\Shipping.data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\ITI\\project\\Shipping\\Shiping.data\\Shipping.data.csproj",
-        "projectName": "Shipping.data",
-        "projectPath": "E:\\ITI\\project\\Shipping\\Shiping.data\\Shipping.data.csproj",
-        "packagesPath": "C:\\Users\\3D\\.nuget\\packages\\",
-        "outputPath": "E:\\ITI\\project\\Shipping\\Shiping.data\\obj\\",
->>>>>>> a5dbc68d37e694ad3f447273559942ac2ebd434b
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\3D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Amany\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

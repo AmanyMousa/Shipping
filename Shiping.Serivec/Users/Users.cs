@@ -15,19 +15,17 @@ namespace Shipping.Serivec.Users
     public class Users : IUsers
     {
         private readonly IUnitofwork _unitOfWork;
-<<<<<<< HEAD
+
         private readonly UserManager<User> _userManager;
 
         public Users(IUnitofwork unitOfWork, UserManager<User> userManager)
-=======
-        //private readonly IMapper _mapper;
-        public Users(IUnitofwork unitOfWork)
->>>>>>> a5dbc68d37e694ad3f447273559942ac2ebd434b
         {
             _unitOfWork = unitOfWork;
             _userManager = userManager;
-
         }
+
+        //private readonly IMapper _mapper;
+       
 
         // MAKE Admin add user
         public async Task<bool> AddUser(AddUserDTO userDTO)

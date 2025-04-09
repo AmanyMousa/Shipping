@@ -8,7 +8,7 @@ namespace Shipping.Repostory.Interfaces
 {
     public interface IUnitofwork
     {
-        IOrderRepository Orders { get; }
+  
         IGovernmentRepository Governments { get; }
         IProductRepository Products { get; }
 

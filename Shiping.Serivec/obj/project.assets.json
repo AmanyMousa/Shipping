@@ -3192,31 +3192,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\3D\\.nuget\\packages\\": {},
+    "C:\\Users\\Amany\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "E:\\ITI\\graduation\\Shiping.Serivec\\Shipping.Service.csproj",
       "projectName": "Shipping.Service",
       "projectPath": "E:\\ITI\\graduation\\Shiping.Serivec\\Shipping.Service.csproj",
       "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
       "outputPath": "E:\\ITI\\graduation\\Shiping.Serivec\\obj\\",
-=======
-      "projectUniqueName": "E:\\ITI\\project\\Shipping\\Shiping.Serivec\\Shipping.Service.csproj",
-      "projectName": "Shipping.Service",
-      "projectPath": "E:\\ITI\\project\\Shipping\\Shiping.Serivec\\Shipping.Service.csproj",
-      "packagesPath": "C:\\Users\\3D\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI\\project\\Shipping\\Shiping.Serivec\\obj\\",
->>>>>>> a5dbc68d37e694ad3f447273559942ac2ebd434b
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\3D\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amany\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3231,13 +3223,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-<<<<<<< HEAD
             "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj": {
               "projectPath": "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj"
-=======
-            "E:\\ITI\\project\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj": {
-              "projectPath": "E:\\ITI\\project\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj"
->>>>>>> a5dbc68d37e694ad3f447273559942ac2ebd434b
             }
           }
         }
