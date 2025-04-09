@@ -5,9 +5,9 @@ namespace Shipping.Data.Entities
 {
     public enum OrderType
     {
-        Normal = 0,      
-        Express = 1,     
-        Cancelled = 2    
+        Normal = 0,
+        Express = 1,
+        Cancelled = 2
     }
     public class Order
     {

@@ -1,6 +1,6 @@
-﻿using Shipping.Serivec.DTOS;
-using Shipping.Serivec.Users;
-using Shipping.Service.DTOS;
+﻿using Shipping.Serivec.Users;
+using Shipping.Service.DTOS.LoginDTOS;
+using Shipping.Service.DTOS.UsersDTOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;

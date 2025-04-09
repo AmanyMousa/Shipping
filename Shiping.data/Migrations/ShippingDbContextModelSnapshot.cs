@@ -180,7 +180,7 @@ namespace Shipping.data.Migrations
 
                     b.HasKey("Bid");
 
-                    b.ToTable("Branches");
+                    b.ToTable("Branches", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.City", b =>
@@ -208,7 +208,7 @@ namespace Shipping.data.Migrations
 
                     b.HasIndex("GovId");
 
-                    b.ToTable("Cities");
+                    b.ToTable("Cities", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.Delivery", b =>
@@ -231,7 +231,7 @@ namespace Shipping.data.Migrations
 
                     b.HasIndex("EmpId");
 
-                    b.ToTable("Deliveries");
+                    b.ToTable("Deliveries", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.Government", b =>
@@ -252,7 +252,7 @@ namespace Shipping.data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Governments");
+                    b.ToTable("Governments", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.Marchant", b =>
@@ -277,7 +277,7 @@ namespace Shipping.data.Migrations
 
                     b.HasIndex("UserId1");
 
-                    b.ToTable("Marchants");
+                    b.ToTable("Marchants", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.Order", b =>
@@ -361,7 +361,7 @@ namespace Shipping.data.Migrations
 
                     b.HasIndex("shipID");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.Permission", b =>
@@ -386,7 +386,7 @@ namespace Shipping.data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Permissions");
+                    b.ToTable("Permissions", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.ProdOrder", b =>
@@ -401,7 +401,7 @@ namespace Shipping.data.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("ProdOrders");
+                    b.ToTable("ProdOrders", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.Product", b =>
@@ -429,7 +429,7 @@ namespace Shipping.data.Migrations
 
                     b.HasIndex("WeightPriceId");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.RejectionOrder", b =>
@@ -454,7 +454,7 @@ namespace Shipping.data.Migrations
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("RejectionOrders");
+                    b.ToTable("RejectionOrders", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.ShippingType", b =>
@@ -480,7 +480,7 @@ namespace Shipping.data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ShippingTypes");
+                    b.ToTable("ShippingTypes", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.User", b =>
@@ -583,7 +583,7 @@ namespace Shipping.data.Migrations
 
                     b.HasIndex("BranchId");
 
-                    b.ToTable("UserBranches");
+                    b.ToTable("UserBranches", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.UserPermission", b =>
@@ -598,7 +598,7 @@ namespace Shipping.data.Migrations
 
                     b.HasIndex("PermissionId");
 
-                    b.ToTable("PermissionRoles");
+                    b.ToTable("PermissionRoles", (string)null);
                 });
 
             modelBuilder.Entity("Shipping.Data.Entities.WeightPrice", b =>
@@ -620,7 +620,7 @@ namespace Shipping.data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("WeightPrices");
+                    b.ToTable("WeightPrices", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

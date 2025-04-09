@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using Shipping.Data.Entities;
 using Shipping.Repostory.Interfaces;
 using Shipping.Service.DTOS.Order;
@@ -21,7 +21,7 @@ namespace Shipping.Controllers
             _mapper = mapper;
         }
 
-        
+
         [HttpGet]
         public async Task<ActionResult<IEnumerable<OrderReadDto>>> GetAllOrders()
         {
@@ -30,7 +30,7 @@ namespace Shipping.Controllers
             return Ok(orderDtos);
         }
 
-         
+
         [HttpGet("{id}")]
         public async Task<ActionResult<OrderReadDto>> GetOrderById(int id)
         {
@@ -42,7 +42,7 @@ namespace Shipping.Controllers
             return Ok(orderDto);
         }
 
-         
+
         [HttpPost]
         public async Task<ActionResult> CreateOrder(OrderCreateDto dto)
         {
@@ -54,7 +54,7 @@ namespace Shipping.Controllers
             return CreatedAtAction(nameof(GetOrderById), new { id = order.Id }, orderDto);
         }
 
-         
+
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateOrder(int id, OrderUpdateDto dto)
         {
@@ -70,7 +70,7 @@ namespace Shipping.Controllers
             return Ok("Order updated successfully.");
         }
 
-         
+
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteOrder(int id)
         {
