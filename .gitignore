@@ -53,3 +53,6 @@ wwwroot/
 # ReSharper
 _ReSharper*/
 *.[Rr]eSharper
+.vs/
+*.db-shm
+*.db-wal
