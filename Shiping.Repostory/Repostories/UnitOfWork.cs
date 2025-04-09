@@ -1,4 +1,5 @@
 ﻿using Shipping.Data;
+using Shipping.Data.Entities;
 using Shipping.Repository;
 using Shipping.Repostory.Interfaces;
 using System;
@@ -12,15 +13,28 @@ namespace Shipping.Repostory.Repostories
     public class UnitOfWork : IUnitofwork
     {
         private readonly ShippingDbContext _context;
+        private readonly IProductRepository products;
         private readonly Dictionary<Type, object> _repositories;
+        public IOrderRepository Orders { get; }
+        public IShippingTypeRepository ShippingTypes { get; }
+        public IGovernmentRepository Governments { get; }
+        public IWeightPriceRepository WeightPrices { get; }
 
-        public UnitOfWork(ShippingDbContext context)
+        public IProductRepository Products { get; }
+
+        public UnitOfWork(ShippingDbContext context, IOrderRepository orderRepository, IWeightPriceRepository weightPriceRepository,
+            IProductRepository _Products, IShippingTypeRepository ShippingTypes, IGovernmentRepository governmentRepository)
         {
             _context = context;
             _repositories = new();
+            Orders = orderRepository;
+            this.ShippingTypes = ShippingTypes;
+            WeightPrices = weightPriceRepository;
+            Products = _Products ?? throw new ArgumentNullException(nameof(_Products));
+            Governments = governmentRepository; 
         }
 
-         IGenericRepo<T,t1> IUnitofwork.GetRepository<T,t1>()
+        IGenericRepo<T,t1> IUnitofwork.GetRepository<T,t1>()
         {
             if (_repositories.ContainsKey(typeof(T)))
             {

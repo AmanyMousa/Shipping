@@ -11,12 +11,19 @@ using Shipping.Repostory.Repostories;
 using Shipping.Serivec.EmailService;
 using Shipping.Serivec.Login;
 using Shipping.Serivec.Settings;
+<<<<<<< HEAD
 using Shipping.Serivec.Users;
 using Shipping.Service.Service.BranchService;
 using Shipping.Service.Service.DeliveryService;
 using Shipping.Service.Service.MarchantService;
 using Shipping.Service.Service.OrderService;
 using Shipping.Service.Service.RejectionOrderService;
+=======
+using Shipping.Service.Governemt;
+using Shipping.Service.Products;
+using Shipping.Service.ShippingTypes;
+using Shipping.Service.WighPrice;
+>>>>>>> a5dbc68d37e694ad3f447273559942ac2ebd434b
 using Shipping.Services.Login;
 using System.Text;
 
@@ -38,11 +45,27 @@ namespace Shipping
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             // Register application services
-            builder.Services.AddScoped<IAccountService, AccountService>();
-            builder.Services.AddScoped<IUnitofwork, UnitOfWork>();
             builder.Services.AddScoped(typeof(IGenericRepo<,>), typeof(GenricRepo<,>));
+            builder.Services.AddScoped<IShippingTypeRepository, ShippingTypeRepository>();
+            builder.Services.AddScoped<IShippingTypeServices, ShippingTypeService>();
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
+            builder.Services.AddScoped<IOrderRepository, OrderRepository>();
             builder.Services.AddScoped<IEmailService, EmailService>();
+<<<<<<< HEAD
             builder.Services.AddScoped<IUsers, Users>();
+=======
+            builder.Services.AddScoped<IAccountService, AccountService>();
+            builder.Services.AddScoped<IWeightPriceRepository, WeightPriceRepository>();
+            builder.Services.AddScoped<IWeightPriceService, WeightPriceService>();
+            builder.Services.AddScoped<IGovernmentRepository, GovernmentRepository>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<IProductServices, ProductService>();
+            builder.Services.AddScoped<IGovernmentService, GovernmentService>();
+
+            builder.Services.AddScoped<IUnitofwork, UnitOfWork>();
+            
+
+>>>>>>> a5dbc68d37e694ad3f447273559942ac2ebd434b
             // Configure Swagger
             builder.Services.AddSwaggerGen(c =>
             {

@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shipping.Repostory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+662a6bba3e8bc87fd77cefd0f40219e9f11b341a")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ecd7756410f5ab8b979089d839c76456ac742f8c")]
+>>>>>>> a5dbc68d37e694ad3f447273559942ac2ebd434b
 [assembly: System.Reflection.AssemblyProductAttribute("Shipping.Repostory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shipping.Repostory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

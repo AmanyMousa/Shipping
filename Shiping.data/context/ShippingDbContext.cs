@@ -95,6 +95,12 @@ namespace Shipping.Data
                 .WithMany(o => o.RejectionOrders)
                 .HasForeignKey(ro => ro.OrderId);
 
+            modelBuilder.Entity<Order>()
+                 .Property(o => o.OrderType)
+                 .HasConversion(v => v.ToString(), // Enum to string
+                 v => (Order.OrderTypeEnum)Enum.Parse(typeof(Order.OrderTypeEnum), v) // string to enum
+      );
+
             base.OnModelCreating(modelBuilder);
 
         }

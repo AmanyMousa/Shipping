@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Shipping.Data.Entities;
 using Shipping.Repostory.Interfaces;
-using Shipping.Serivec.DTOS;
+using Shipping.Service.DTOS.UsersDTOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,9 +15,14 @@ namespace Shipping.Serivec.Users
     public class Users : IUsers
     {
         private readonly IUnitofwork _unitOfWork;
+<<<<<<< HEAD
         private readonly UserManager<User> _userManager;
 
         public Users(IUnitofwork unitOfWork, UserManager<User> userManager)
+=======
+        //private readonly IMapper _mapper;
+        public Users(IUnitofwork unitOfWork)
+>>>>>>> a5dbc68d37e694ad3f447273559942ac2ebd434b
         {
             _unitOfWork = unitOfWork;
             _userManager = userManager;

@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.3">
@@ -17,9 +17,17 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.7.0" />
   </ItemGroup>
+   <Target Name="CopyFilesWithRetry" DependsOnTargets="Build">
+   <Copy SourceFiles="E:\ITI\project\Shipping\Shiping\obj\Debug\net9.0\apphost.exe" DestinationFiles="bin\Debug\net9.0\Shipping.exe" RetryCount="5" RetryDelayMilliseconds="1000" />
+ </Target>
 
   <ItemGroup>
     <ProjectReference Include="..\Shiping.Serivec\Shipping.Service.csproj" />
   </ItemGroup>
 
 </Project>
+
+
+
+
+ 
