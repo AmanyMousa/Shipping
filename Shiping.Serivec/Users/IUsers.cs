@@ -1,5 +1,5 @@
 ﻿using Shipping.Data.Entities;
-using Shipping.Serivec.DTOS;
+using Shipping.Service.DTOS.UsersDTOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;

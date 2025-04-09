@@ -5,14 +5,14 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Identity;
 using Shipping.Serivec.Login;
-using Shipping.Serivec.DTOS;
 using Shipping.Serivec.Settings;
 using Microsoft.IdentityModel.Tokens;
 using System.Linq;
 using Microsoft.VisualBasic.FileIO;
 using Microsoft.Extensions.Options;
 using Shipping.Serivec.EmailService;
-using Shipping.Service.DTOS;
+using Shipping.Service.DTOS.LoginDTOS;
+using Shipping.Service.DTOS.UsersDTOS;
 
 namespace Shipping.Services.Login
 {

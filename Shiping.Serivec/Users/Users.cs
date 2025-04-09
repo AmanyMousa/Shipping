@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Shipping.Data.Entities;
 using Shipping.Repostory.Interfaces;
-using Shipping.Serivec.DTOS;
+using Shipping.Service.DTOS.UsersDTOS;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +13,7 @@ namespace Shipping.Serivec.Users
     public class Users : IUsers
     {
         private readonly IUnitofwork _unitOfWork;
-        private readonly IMapper _mapper;
+        //private readonly IMapper _mapper;
         public Users(IUnitofwork unitOfWork)
         {
             _unitOfWork = unitOfWork;

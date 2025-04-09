@@ -44,8 +44,7 @@
               "RelativeToolTip": "..\\Shiping.Serivec\\DTOS\\OrdersDTOS\\OrderDto.cs",
               "ViewState": "AgIAABMAAAAAAAAAAADwvxoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T00:15:02.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T00:15:02.409Z"
             },
             {
               "$type": "Document",
@@ -70,8 +69,7 @@
               "RelativeToolTip": "..\\Shiping.Serivec\\OrdetServices\\OrderService.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T00:12:08.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T00:12:08.994Z"
             }
           ]
         }

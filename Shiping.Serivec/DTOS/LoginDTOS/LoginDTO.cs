@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shipping.Serivec.DTOS
+namespace Shipping.Service.DTOS.LoginDTOS
 {
     public class LoginDTO
     {
-        [Required ,EmailAddress]
+        [Required, EmailAddress]
         public string Email { get; set; }
 
         [Required]
