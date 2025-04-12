@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj": {}
+    "E:\\Graduation_Project\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj": {}
   },
   "projects": {
-    "E:\\ITI\\graduation\\Shiping.data\\Shipping.data.csproj": {
+    "E:\\Graduation_Project\\Shipping\\Shiping.data\\Shipping.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ITI\\graduation\\Shiping.data\\Shipping.data.csproj",
+        "projectUniqueName": "E:\\Graduation_Project\\Shipping\\Shiping.data\\Shipping.data.csproj",
         "projectName": "Shipping.data",
-        "projectPath": "E:\\ITI\\graduation\\Shiping.data\\Shipping.data.csproj",
+        "projectPath": "E:\\Graduation_Project\\Shipping\\Shiping.data\\Shipping.data.csproj",
         "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-        "outputPath": "E:\\ITI\\graduation\\Shiping.data\\obj\\",
+        "outputPath": "E:\\Graduation_Project\\Shipping\\Shiping.data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -83,14 +83,14 @@
         }
       }
     },
-    "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj": {
+    "E:\\Graduation_Project\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj",
+        "projectUniqueName": "E:\\Graduation_Project\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj",
         "projectName": "Shipping.Repostory",
-        "projectPath": "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj",
+        "projectPath": "E:\\Graduation_Project\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj",
         "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-        "outputPath": "E:\\ITI\\graduation\\Shiping.Repostory\\obj\\",
+        "outputPath": "E:\\Graduation_Project\\Shipping\\Shiping.Repostory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -111,8 +111,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "E:\\ITI\\graduation\\Shiping.data\\Shipping.data.csproj": {
-                "projectPath": "E:\\ITI\\graduation\\Shiping.data\\Shipping.data.csproj"
+              "E:\\Graduation_Project\\Shipping\\Shiping.data\\Shipping.data.csproj": {
+                "projectPath": "E:\\Graduation_Project\\Shipping\\Shiping.data\\Shipping.data.csproj"
               }
             }
           }

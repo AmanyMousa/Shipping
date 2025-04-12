@@ -3198,11 +3198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITI\\graduation\\Shiping.Serivec\\Shipping.Service.csproj",
+      "projectUniqueName": "E:\\Graduation_Project\\Shipping\\Shiping.Serivec\\Shipping.Service.csproj",
       "projectName": "Shipping.Service",
-      "projectPath": "E:\\ITI\\graduation\\Shiping.Serivec\\Shipping.Service.csproj",
+      "projectPath": "E:\\Graduation_Project\\Shipping\\Shiping.Serivec\\Shipping.Service.csproj",
       "packagesPath": "C:\\Users\\Amany\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI\\graduation\\Shiping.Serivec\\obj\\",
+      "outputPath": "E:\\Graduation_Project\\Shipping\\Shiping.Serivec\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3223,8 +3223,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj": {
-              "projectPath": "E:\\ITI\\graduation\\Shiping.Repostory\\Shipping.Repostory.csproj"
+            "E:\\Graduation_Project\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj": {
+              "projectPath": "E:\\Graduation_Project\\Shipping\\Shiping.Repostory\\Shipping.Repostory.csproj"
             }
           }
         }

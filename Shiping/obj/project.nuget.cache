@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1EbXUCVXG4w=",
+  "dgSpecHash": "2NUTsQwKcRI=",
   "success": true,
-  "projectFilePath": "E:\\ITI\\graduation\\Shiping\\Shipping.csproj",
+  "projectFilePath": "E:\\Graduation_Project\\Shipping\\Shiping\\Shipping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Amany\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Amany\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
